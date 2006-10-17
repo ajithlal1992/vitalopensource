@@ -1,0 +1,85 @@
+<div class="debugging">
+
+<h1>Cookies</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+	#foreach($cookie in $m_request.getCookies())
+	<tr><td class="first $row.next">$cookie.getName()</td><td>$cookie.getValue()</td></tr>
+	#end
+	</tbody>
+</table>
+
+<h1>Headers</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+	#foreach($parameter in $m_request.getHeaderNames())
+	<tr><td class="first $row.next">$parameter</td><td>$m_request.getHeader($parameter)</td></tr>
+	#end
+	</tbody>
+</table>
+
+<h1>Parameters</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+	#foreach($parameter in $m_request.getParameterNames())
+	<tr><td class="first $row.next">$parameter</td><td>$m_request.getParameter($parameter)</td></tr>
+	#end
+	</tbody>
+</table>
+
+<h1>Action Parameters</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+	#foreach($parameter in $m_action_parameters)
+	<tr><td class="first $row.next">$parameter</td><td></td></tr>
+	#end
+	</tbody>
+</table>
+
+<h1>Session</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+
+	#foreach($attribute in $m_request.getSession().getAttributeNames())
+	<tr><td class="first $row.next">$attribute</td><td>$m_request.getSession().getAttribute($attribute)</td></tr>
+	#end
+
+	</tbody>
+</table>
+
+<h1>Request</h1>
+<table>
+	<tbody>
+	#set($row = $toolbox_alternator.make('even', 'odd'))
+
+	#foreach($attribute in $m_request.getAttributeNames())
+	<tr><td class="first $row.next">$attribute</td><td>$m_request.getAttribute($attribute)</td></tr>
+	#end
+
+	</tbody>
+</table>
+
+<h1>Request Method</h1>
+<p>$m_request.getMethod()</p>
+
+<h1>Path Info</h1>
+<p>$m_request.getPathInfo()</p>
+
+<h1>Request URI</h1>
+<p>$m_request.getRequestURI()</p>
+
+<h1>Path Translated</h1>
+<p>$m_request.getPathTranslated()</p>
+
+<h1>Query String</h1>
+<p>$m_request.getQueryString()</p>
+
+<h1>Servlet Path</h1>
+<p>$m_request.getServletPath()</p>
+
+</div>

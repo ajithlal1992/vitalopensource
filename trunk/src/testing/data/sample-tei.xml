@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TEI.2>
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>TEI U5: Encoding for Interchange: an introduction to the TEI</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Not for publication or redistribution</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>TEI U1: An Introduction to TEI Tagging (derived from TEI ED W21: Living with the Guidelines)</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="sgml">some examples of SGML use                       
+          <mentioned>SGML  as their           </mentioned>
+          <ident>lang  value          </ident>
+        </language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>October 2004</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>SPQR</name>
+        </respStmt>
+        <item>reformat, clean up, remove list of translations</item>
+      </change>
+      <change>
+        <date>7 Aug 2002</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>LB</name>
+        </respStmt>
+        <item>Correct blunder in Gifford example</item>
+      </change>
+      <change>
+        <date>18 May 2002</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>LB</name>
+        </respStmt>
+        <item>First pass  for P4/XML revision</item>
+      </change>
+      <change>
+        <date>21 January 2001</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>LB</name>
+        </respStmt>
+        <item>Added IDs to div1s and checked links</item>
+      </change>
+      <change>
+        <date>4th January 2001</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>SPQR</name>
+        </respStmt>
+        <item>Remove TOC, fix a couple of links, change preface to div1 not div.  Add stylesheet PI, make parse</item>
+      </change>
+      <change>
+        <date>21 June 2000</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>LB</name>
+        </respStmt>
+        <item>Add preface; modify links</item>
+      </change>
+      <change>
+        <date>9 September 1995</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>fix Oxford links</item>
+      </change>
+      <change>
+        <date>8 June 1995</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>install on TEI web server (changing DTD subset slightly)</item>
+      </change>
+      <change>
+        <date>7 June 1995</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>Bring TeX and Script spelling corrections, etc. into SGML form.</item>
+      </change>
+      <change>
+        <date>2-3 June 1995</date>
+        <respStmt>
+          <resp>ed.</resp>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>Spellcheck, final (! ha!) changes, format, and print.  Many changes made only in TeX and Script versions.</item>
+      </change>
+      <change>
+        <date>29-30 May 1995</date>
+        <respStmt>
+          <resp/>
+          <name>LB</name>
+        </respStmt>
+        <item>Last (ha!) pass. Cut down intro section. Moved divgen again.  Revised interp and index sections extensively and generally hacked.</item>
+      </change>
+      <change>
+        <date>24-25 May 1995</date>
+        <respStmt>
+          <resp/>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>changes as agreed with LB at ExCommittee meeting: interp section, rev. editorial tags, add def of TEI Lite, add section on Making It Work with software, resettle divGen and index, begin continuous pass through working from LB&apos;s notes</item>
+      </change>
+      <change>
+        <date>15 May 1995</date>
+        <respStmt>
+          <resp/>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>begin last push prior to publication</item>
+      </change>
+      <change>
+        <date>1 Dec 94 </date>
+        <respStmt>
+          <resp/>
+          <name>LB</name>
+        </respStmt>
+        <item>retagged using TEI Lite</item>
+      </change>
+      <change>
+        <date>23 Jun 94 </date>
+        <respStmt>
+          <resp/>
+          <name>LB</name>
+        </respStmt>
+        <item> change to use ODD-style tagdescs</item>
+      </change>
+      <change>
+        <date>1993-07-20</date>
+        <respStmt>
+          <resp>draft</resp>
+          <name>CMSMcQ</name>
+        </respStmt>
+        <item>made file from old ED W21</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">TEI Lite:  An Introduction to Text Encoding for Interchange</titlePart>
+        </docTitle>
+        <docAuthor>Lou Burnard</docAuthor>
+        <docAuthor>C. M. Sperberg-McQueen</docAuthor>
+        <docImprint>Document No: TEI U 5</docImprint>
+        <docDate>June 1995, revised May 2002</docDate>
+      </titlePage>
+      <div1 id="U5-pref" type="preface">
+        <head>Prefatory note</head>
+        <p>TEI Lite was the name adopted for what the TEI editors originally conceived of as a simple demonstration of how the TEI encoding scheme might be adopted to meet 90% of the needs of 90% of the TEI user community. In retrospect, it was predictable that many people should imagine TEI Lite to be all there is to TEI, or find TEI Lite to be far too heavy for their needs (to meet the latter criticism, Michael also prepared a special                       
+          <xref url="http://www.tei-c.org/Vault/Bare">barebones version of TEI Lite ).          </xref>
+        </p>
+        <p>TEI Lite was based largely on our observations of existing and previous practice in the encoding of texts, particularly as manifest in the collections of the                       
+          <xref url="http://ota.ahds.ac.uk">Oxford Text Archive  and in our own experience. It is therefore unsurprising that it seems to have become, if not a de facto standard, at least a common point of departure for electronic text centres and encoding projects world wide. Maybe the fact that we actually produced this shortish, readable, manual for it also helped.          </xref>
+        </p>
+        <p>That manual was, of course, authored and is maintained in the DTD it describes, originally as                       
+          <xref url="teiu5_en.xml">an XML document . This makes it easy to produce a number of differently formatted versions in HTML, PDF, etc., some of which can be found in           </xref>
+          <xref url="http://www.tei-c.org/Vault/">The TEI Vault .          </xref>
+        </p>
+        <p>Early adopters of TEI Lite included a number of                       
+          <soCalled>Electronic Text Centers , many of whom produced their own documentation and tutorial materials (some examples are listed in           </soCalled>
+          <xref url="http://www.tei-c.org/Tutorials">the TEI Tutorials pages ).           </xref>
+        </p>
+        <p>With the publication of TEI P4, the XML version of the TEI Guidelines, which uses the generation of TEI Lite as an example of the Modification mechanism built into the TEI Guidelines, the opportunity has been taken to produce a lightly revised version of the present document. This revision documents the                       
+          <xref url="http://www.tei-c.org/Lite/DTD/teixlite.dtd">XML version of the TEI Lite DTD .           </xref>
+        </p>
+        <trailer>Lou Burnard, May 2002</trailer>
+      </div1>
+      <!-- <divGen type="toc"/> -->
+    </front>
+    <body>
+      <p>This document provides an introduction to the recommendations of the Text Encoding Initiative (TEI), by describing a manageable subset of the full TEI encoding scheme. The scheme documented here can be used to encode a wide variety of commonly encountered textual features, in such a way as to maximize the usability of electronic transcriptions and to facilitate their interchange among scholars using different computer systems. It is also fully compatible with the full TEI scheme, as defined by TEI document P4,                   
+        <title>Guidelines for Electronic Text Encoding and Interchange , published in May 2002, and available from the TEI     Consortium website at         </title>
+        <xptr doc="TEIhome">. </xptr>
+        <!-- note
+place="inline" anchored="yes">Copies of the current version of this
+text may be found via the World Wide Web at <xptr doc="teiu5-usa"/>
+and <xptr doc="teiu5-uk"/>, and at other sites mirroring these.  The
+document is also available in HTML form at <xptr
+doc="teiu5-html-usa"/> and <xptr doc="teiu5-html-uk"/>. Copies of the
+formal SGML and XML document type definitions for the tag set described here
+may be found at the same locations, under the file names
+<ident>teilite.dtd</ident>: 
+<xptr doc="teilite-usa"/> and <xptr doc="teilite-uk"/>
+and <ident>teixlite.dtd</ident>: 
+<xptr doc="teixlite-usa"/> and <xptr doc="teixlite-uk"/></note-->
+      </p>
+      <div1 id="U5-Intro" type="Section">
+        <head>Introduction</head>
+        <p>The Text Encoding Initiative (TEI) Guidelines are addressed to anyone who wants to interchange information stored in an electronic form. They emphasize the interchange of textual information, but other forms of information such as images and sound are also addressed. The Guidelines are equally applicable in the creation of new resources and in the interchange of existing ones.</p>
+        <p>The Guidelines provide a means of making explicit certain features of a text in such a way as to aid the processing of that text by computer programs running on different machines. This process of making explicit we call                       
+          <term>markup  or           </term>
+          <term>encoding .  Any textual representation on a computer uses some form of markup; the TEI came into being partly because of the enormous variety of mutually incomprehensible encoding schemes currently besetting scholarship, and partly because of the expanding range of scholarly uses now being identified for texts in electronic form.          </term>
+        </p>
+        <p>The TEI Guidelines describe an encoding scheme which can be      expressed using a number of different formal languages. The first      editions of the Guidelines used the                       
+          <term>Standard Generalized      Markup Language  (SGML); the most recent edition      (TEI P4, 2002) can also be expressed in the Extensible Markup      Language (XML); future versions may also be expressible in other      schema languages. Such languages have in common            </term>
+          <!--   to define
+their encoding scheme. SGML is an international standard (ISO 8879),
+used increasingly throughout the information processing industries,
+which makes possible a formal definition of an encoding scheme, in
+-->e definition of text in terms of                       
+          <term>elements  and           </term>
+          <term>attributes , and rules governing their appearance within a text. The TEI&apos;s use of XML is ambitious in its complexity and generality, but it is fundamentally no different from that of any other XML markup scheme, and so any general-purpose XML-aware software is able to process TEI-conformant texts.          </term>
+        </p>
+        <p>The TEI was sponsored by the Association for Computers and the Humanities, the Association for Computational Linguistics, and the Association for Literary and Linguistic Computing, and is now      maintained and developed by an independent membership consortium, hosted by      four major Universities. Funding has been provided in part from the U.S. National Endowment for the Humanities, Directorate General XIII of the Commission of the European Communities, the Andrew W. Mellon Foundation, and the Social Science and Humanities Research Council of Canada. The Guidelines were first published in May 1994, after six years of development involving many hundreds of scholars from different academic disciplines worldwide. During the years that followed, the Guidelines were      increasingly influential in the development of the      digital library, in the language industries, and even in the      development of the World Wide Web itself. The TEI consortium was      set up in January 2001, and a year later produced the current      fully revised edition of the Guidelines, which has been entirely      revised for XML compatibility. </p>
+        <p>At the outset of its work, the overall goals of the TEI were defined by the closing statement of a planning conference held at Vassar College, N.Y., in November, 1987; these                       
+          <soCalled>Poughkeepsie Principles  were further elaborated in a series of design documents.  The Guidelines, say these design documents,          </soCalled>
+          <!-- <NOTE place="foot"> <TITLE level="U">TEI ED P1: Design
+Principles for Text Encoding Guidelines</TITLE> (Chicago, Oxford: Text
+Encoding initiative, 1989); like other TEI technical documents,
+available from the TEI.</NOTE> -->hould:                       
+          <list type="bullets">
+            <item>suffice to represent the textual features needed for        research;</item>
+            <item>be simple, clear, and concrete;</item>
+            <item>be easy for researchers to use without special-purpose software;</item>
+            <item>allow the rigorous definition and efficient processing of texts;</item>
+            <item>provide for user-defined extensions;</item>
+            <item>conform to existing and emergent standards.</item>
+          </list>
+        </p>
+        <p>The world of scholarship is large and diverse. For the Guidelines to have wide acceptability, it was important to ensure that:                       
+          <list type="ordered">
+            <item>the common core of textual features be easily shared;</item>
+            <item>additional specialist features be easy to add to (or remove from) a text;</item>
+            <item>multiple parallel encodings of the same feature should be possible;</item>
+            <item>the richness of markup should be user-defined, with a very small minimal requirement;</item>
+            <item>adequate documentation of the text and its encoding should be provided.</item>
+          </list>
+        </p>
+        <p>The present document describes a manageable selection from the extensive set of elements and recommendations resulting from those design goals, which is called                       
+          <title>TEI Lite .          </title>
+        </p>
+        <p>In selecting from the  several hundred elements defined by the full TEI scheme, we have tried to identify a useful                       
+          <soCalled>starter set , comprising the elements which almost every user should know about.  Experience working with TEI Lite will be invaluable in understanding the full TEI DTD and in knowing which optional parts of the full DTD are necessary for work with particular types of text.          </soCalled>
+        </p>
+        <p>Our goals in defining this subset may be summarized as follows:                       
+          <list type="simple">
+            <item>it should include most of the TEI                               
+              <soCalled>core  tag set, since this contains elements relevant to virtually all text types and all kinds of text-processing work;              </soCalled>
+            </item>
+            <!-- deleted this item: there ARE no elements defined in the prose
+tagset! -->-                           
+            <ITEM>it should include most of the elements defined in the TEI base tag set for prose;  --&gt;            </ITEM>
+            <item>it should be able to handle adequately a reasonably wide variety of texts, at the level of detail found in existing practice (as demonstrated in, for example, the holdings of the Oxford Text Archive);</item>
+            <item>it should be useful for the production of new documents as well as encoding of existing ones;</item>
+            <item>it should be usable with a wide range of existing XML software;</item>
+            <item>it should be derivable from the full TEI DTD using the extension mechanisms described in the TEI Guidelines;</item>
+            <item>it should be as small and simple as is consistent with the other goals.</item>
+          </list>
+        </p>
+        <p>The reader may judge our success in meeting these goals for him or herself. At the time of writing (1995), our confidence that we have at least partially done so is borne out by its use in practice for the encoding of real texts.  The Oxford Text Archive uses TEI Lite when it translates texts from its holdings from their original markup schemes into SGML; the Electronic Text Centers at the University of Virginia and the University of Michigan have used TEI Lite to encode their holdings. And the Text Encoding Initiative itself uses TEI Lite, in its current technical documentation &amp;#8212; including this document.        </p>
+        <p>Although we have tried to make this document self-contained, as suits a tutorial text, the reader should be aware that it does not cover every detail of the TEI encoding scheme. All of the elements described here are fully documented in the TEI Guidelines themselves, which should be consulted for authoritative reference information on these, and on the many others which are not described here.  Some basic knowledge of XML is assumed.</p>
+      </div1>
+      <div1 id="U5-eg" type="Section">
+        <head>A Short Example</head>
+        <p>We begin with a short example, intended to show what happens when a passage of prose is typed into a computer by someone with little sense of the purpose of mark-up, or the potential of electronic texts.  In an ideal world, such output might be generated by a very accurate optical scanner.  It attempts to be faithful to the appearance of the printed text, by retaining the original line breaks, by introducing blanks to represent the layout of the original headings and page breaks, and so forth. Where characters not available on the keyboard are needed (such as the accented letter                       
+          <mentioned>a  in           </mentioned>
+          <mentioned>faàl  or the long dash), it attempts to mimic their appearance.          </mentioned>
+        </p>
+        <p>
+          <eg>                          CHAPTER 38  READER, I married him. A quiet wedding we had: he and I, the par- son and clerk, were alone present. When we got back from church, I went into the kitchen of the manor-house, where Mary was cooking the dinner, and John cleaning the knives, and I said --   &apos;Mary, I have been married to Mr Rochester this morning.&apos; The housekeeper and her husband were of that decent, phlegmatic order of people, to whom one may at any time safely communicate a remarkable piece of news without incurring the danger of having one&apos;s ears pierced by some shrill ejaculation and subsequently stunned by a torrent of wordy wonderment. Mary did look up, and she did stare at me; the ladle with which she was basting a pair of chickens roasting at the fire, did for some three minutes hang suspended in air, and for the same space of time John&apos;s knives also had rest from the polishing process; but Mary, bending again over the roast, said only --    &apos;Have you, miss? Well, for sure!&apos;    A short time after she pursued, &apos;I seed you go out with the master, but I didn&apos;t know you were gone to church to be wed&apos;; and she basted away. John, when I turned to him, was grinning from ear to ear.    &apos;I telled Mary how it would be,&apos; he said: &apos;I knew what Mr Ed- ward&apos; (John was an old servant, and had known his master when he was the cadet of the house, therefore he often gave him his Christian name) -- &apos;I knew what Mr Edward would do; and I was certain he would not wait long either: and he&apos;s done right, for aught I know. I wish you joy, miss!&apos; and he politely pulled his forelock.    &apos;Thank you, John. Mr Rochester told me to give you and Mary this.&apos;    I put into his hand a five-pound note.  Without waiting to hear more, I left the kitchen. In passing the door of that sanctum some time after, I caught the words --    &apos;She&apos;ll happen do better for him nor ony o&apos; t&apos; grand ladies.&apos; And again, &apos;If she ben&apos;t one o&apos; th&apos; handsomest, she&apos;s noan faa\l, and varry good-natured; and i&apos; his een she&apos;s fair beautiful, onybody may see that.&apos;    I wrote to Moor House and to Cambridge immediately, to say what I had done: fully explaining also why I had thus acted. Diana and                              474                   JANE EYRE                      475  Mary approved the step unreservedly. Diana announced that she would just give me time to get over the honeymoon, and then she would come and see me.    &apos;She had better not wait till then, Jane,&apos; said Mr Rochester, when I read her letter to him; &apos;if she does, she will be too late, for our honey- moon will shine our life long: its beams will only fade over your grave or mine.&apos;    How St John received the news I don&apos;t know: he never answered the letter in which I communicated it: yet six months after he wrote to me, without, however, mentioning Mr Rochester&apos;s name or allud- ing to my marriage. His letter was then calm, and though very serious, kind. He has maintained a regular, though not very frequent correspond- ence ever since: he hopes I am happy, and trusts I am not of those who live without God in the world, and only mind earthly       things.</eg>
+          <!---->
+        </p>
+        <p>This transcription suffers from a number of shortcomings:                       
+          <list type="bullets">
+            <item>the page numbers and running titles are intermingled with the text in a way which makes it difficult for software to disentangle them;</item>
+            <item>no distinction is made between single quotation marks and apostrophe, so it is difficult to know exactly which passages are in direct speech;</item>
+            <item>the preservation of the copy text&apos;s hyphenation means that simple-minded search programs will not find the broken words;</item>
+            <item>the accented letter in                               
+              <mentioned>faàl  and the long dash have been rendered by ad hoc keying conventions which follow no standard pattern and will be processed correctly only if the transcriber remembers to mention them in the documentation;              </mentioned>
+            </item>
+            <item>paragraph divisions are marked only by the use of white space, and hard carriage returns have been introduced at the end of each line. Consequently, if the size of type used to print the text changes, reformatting will be problematic.</item>
+          </list>
+        </p>
+        <p>We now present the same passage, as it might be encoded using the TEI Guidelines. As we shall see, there are many ways in which this encoding could be extended, but as a minimum, the TEI approach allows us to represent the following distinctions:                       
+          <list type="bullets">
+            <item>Paragraph divisions are now marked explicitly.</item>
+            <item>Apostrophes are distinguished from quotation marks.</item>
+            <item>Entity references are used for the accented letter and the long dash.</item>
+            <item>Page divisions have been marked with an empty                               
+              <gi>pb  element alone.              </gi>
+            </item>
+            <item>To simplify searching and processing, the lineation of the original has not been retained and words broken by typographic accident at the end of a line have been re-assembled without comment. If the original lineation were of interest, as it might be for an important printing, it could easily be recorded, though it has not been here.</item>
+            <item>For convenience of proof reading, a new line has been introduced at the start of each paragraph, but the indentation is removed.</item>
+          </list>
+          <eg>
+            <![CDATA[<pb n="'474'"/>
+            <div1 n="'38'" type="chapter">
+              <p>Reader, I married him.  A quiet wedding we had: he and I, the parson and clerk, were alone present.  When we got back from church, I went into the kitchen of the manor-house, where Mary was cooking the dinner, and John cleaning the knives, and I said &amp;mdash;</p>
+              <p>
+                <q>Mary, I have been married to Mr Rochester this morning.  The housekeeper and her husband were of that decent, phlegmatic order of people, to whom one may at any time safely communicate a remarkable piece of news without incurring the danger of having one&apos;s ears pierced by some shrill ejaculation and subsequently stunned by a torrent of wordy wonderment.  Mary did look up, and she did stare at me; the ladle with which she was basting a pair of chickens roasting at the fire, did for some three minutes hang suspended in air, and for the same space of time John&apos;s knives also had rest from the polishing process; but Mary, bending again over the roast, said only &amp;mdash;                </q>
+              </p>
+              <p>
+                <q>Have you, miss? Well, for sure!</q>
+              </p>
+              <p>A short time after she pursued,                                   
+                <q>I seed you go out with the master, but I didn&apos;t know you were gone to church to be wed ; and she basted away.  John, when I turned to him, was grinning from ear to ear.                  </q>
+                <q>I telled Mary how it would be,  he said:                 </q>
+                <q>I knew what Mr Edward  (John was an old servant, and had known his master when he was the cadet of the house, therefore he often gave him his Christian name) &amp;mdash;                 </q>
+                <q>I knew what Mr Edward would do; and I was certain he would not wait long either: and he&apos;s done right, for aught I know.  I wish you joy, miss!  and he politely pulled his forelock.                </q>
+              </p>
+              <p>
+                <q>Thank you, John.  Mr Rochester told me to give you and Mary this.</q>
+              </p>
+              <p>I put into his hand a five-pound note.  Without waiting to hear more, I left the kitchen.  In passing the door of that sanctum some time after, I caught the words &amp;mdash;</p>
+              <p>
+                <q>She&apos;ll happen do better for him nor ony o&apos; t&apos; grand ladies.  And again,                 </q>
+                <q>If she ben&apos;t one o&apos; th&apos; handsomest, she&apos;s noan fa&amp;agrave;l, and varry good-natured; and i&apos; his een she&apos;s fair beautiful, onybody may see that.</q>
+              </p>
+              <p>I wrote to Moor House and to Cambridge immediately, to say what I had done: fully explaining also why I had thus acted.  Diana and                                   
+                <pb n="'475'"> Mary approved the step unreservedly.  Diana announced that she would just give me time to get over the honeymoon, and then she would come and see me.</pb>
+              </p>
+              <p>
+                <q>She had better not wait till then, Jane,  said Mr Rochester, when I read her letter to him;                 </q>
+                <q>if she does, she will be too late, for our honeymoon will shine our life long: its beams will only fade over your grave or mine.</q>
+              </p>
+              <p>How St John received the news I don&apos;t know: he never answered the letter in which I communicated it: yet six months after he wrote to me, without, however, mentioning Mr Rochester&apos;s name or alluding to my marriage.  His letter was then calm, and though very serious, kind.  He has maintained a regular, though not very frequent correspondence ever since: he hopes I am happy, and trusts I am not of those who live without God in the world, and only mind earthly things. ]]&gt;              </p>
+            </div1>
+          </eg>
+          <p>The decision to focus on Brontë&apos;s text, rather than on the printing of it in this particular edition, is one aspect of a fundamental encoding issue: that of selectivity. An encoding makes explicit only those textual features of importance to the encoder.  It is not difficult to think of ways in which the encoding of even this short passage might readily be extended. For example:                           
+            <list type="simple">
+              <item>a regularized form of the passages in dialect could be provided;</item>
+              <item>footnotes glossing or commenting on any passage could be        added;</item>
+              <item>pointers linking parts of this text to others could be added;</item>
+              <item>proper names of various kinds could be distinguished from the surrounding text;</item>
+              <item>detailed bibliographic information about the text&apos;s provenance and context could be prefixed to it;</item>
+              <item>a linguistic analysis of the passage into sentences, clauses, words, etc., could be provided, each unit being associated with appropriate category codes;</item>
+              <item>the text could be segmented into narrative or discourse        units;</item>
+              <item>systematic analysis or interpretation of the text could be included in the encoding, with potentially complex alignment or linkage between the text and the analysis, or between the text and one or more translations of it;</item>
+              <item>passages in the text could be linked to images or sound held on other media.</item>
+            </list>
+          </p>
+          <p>The TEI-recommended way of carrying all of these out is described in the remainder of this document. The TEI scheme as a whole also provides for an enormous range of other possibilities, of which we cite only a few:                           
+            <list type="simple">
+              <item>detailed analysis of the components of names;</item>
+              <item>detailed meta-information providing thesaurus-style information about the text&apos;s origins or topics;</item>
+              <item>information about the printing history or manuscript variations exhibited by a particular series of versions of the text.   For recommendations on these and many other possibilities, the full Guidelines should be consulted.                          </item>
+            </list>
+          </p>
+        </p>
+        <div1 id="U5-struc" type="Section">
+          <head>The Structure of a TEI Text</head>
+          <p>All TEI-conformant texts contain (a) a                           
+            <term>TEI header  (marked up as a             </term>
+            <gi>teiHeader  element) and (b) the transcription of the text proper (marked up as a             </gi>
+            <gi>text  element).            </gi>
+          </p>
+          <p>The TEI header provides information analogous to that provided by the title page of a printed text.  It has up to four parts: a bibliographic description of the machine-readable text, a description of the way it has been encoded, a non-bibliographic description of the text (a                           
+            <term>text profile ), and a revision history. The header is described in more detail in section             </term>
+            <ptr target="U5-header">.</ptr>
+          </p>
+          <p>A TEI text may be                           
+            <term>unitary  (a single work) or             </term>
+            <term>composite  (a collection of single works, such as an anthology). In either case, the text may have an optional             </term>
+            <term>front  or             </term>
+            <term>back . In between is the             </term>
+            <term>body  of the text, which, in the case of a composite text, may consist of             </term>
+            <term>group s, each containing more groups or texts.            </term>
+          </p>
+          <p>A unitary text will be encoded using an overall structure like this:                           
+            <eg>
+              <![CDATA[<TEI>
+              <teiHeader> [ TEI Header information ]  </teiHeader>
+              <text>
+                <front> [ front matter ... ]   </front>
+                <body>  [ body of text ... ]   </body>
+                <back>  [ back matter ...  ]   
+
+
+]]>                                          </back>
+              </text>
+            </eg>
+          </p>
+        </div1>
+        <p>A composite text also has an optional front and back. In between occur one or more groups of texts, each with its own optional front and back matter. A composite text will thus be encoded using an overall structure like this:                       
+          <eg>
+            <![CDATA[<TEI>
+            <teiHeader> [ header information for the composite ] </teiHeader>
+            <text>
+              <front> [ front matter for the composite  ]      </front>
+              <group>
+                <text>
+                  <front> [ front matter of first text ] </front>
+                  <body>  [ body of first text  ]          </body>
+                  <back>  [ back matter of first text ]    </back>
+                </text>
+                <text>
+                  <front> [ front matter of second text]  </front>
+                  <body>  [ body of second text  ]          </body>
+                  <back>  [ back matter of second text ]                  [ more texts or groups of texts here ]                                           </back>
+                </text>
+              </group>
+              <back>      [ back matter for the composite  ]      
+
+
+]]>                                    </back>
+            </text>
+          </eg>
+        </p>
+      </div1>
+      <p>It is also possible to define a composite of TEI texts, each with its own header. Such a collection is known as a                   
+        <term>TEI corpus , and may itself have a header:         </term>
+        <eg>
+          <![CDATA[<teiCorp>
+          <teiHeader>   [header information for the corpus]</teiHeader>
+          <TEI.2>
+            <teiHeader>[header information for first text]</teiHeader>
+            <text>     [first text in corpus]             </text>
+          </TEI.2>
+          <TEI.2>
+            <teiHeader>[header information for second text]</teiHeader>
+            <text>     [second text in corpus]             
+
+
+]]>                              </text>
+
+
+ It is not however possible to create a composite of corpora --
+that is, a number of                         </TEI.2>
+        </eg>
+      </p>
+      <gi>teiCorpus  elements combined together and treated as a single object. This is a restriction of the current version of the TEI Guidelines.      </gi>
+    </body>
+    <p>In the remainder of this document, we discuss chiefly simple text structures. The discussion in each case consists of a short list of relevant TEI               
+      <term>elements  with a brief definition of each, followed by definitions for any       </term>
+      <term>attributes  specific to that element. In most cases, short examples are also given.      </term>
+      <!---->&gt;                 
+    </p>
+    <div1 id="U5-body" type="Section">
+      <head>Encoding the Body</head>
+      <p>As indicated above, a simple TEI document at the textual level consists of the following elements:                   
+        <list type="gloss">
+          <label>
+            <gi>front</gi>
+          </label>
+          <item>contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found before the start of a text proper.</item>
+          <label>
+            <gi>group</gi>
+          </label>
+          <item>contains a number of unitary texts or groups of texts.</item>
+          <label>
+            <gi>body</gi>
+          </label>
+          <item>contains the whole body of a single unitary text, excluding any front or back matter.</item>
+          <label>
+            <gi>back</gi>
+          </label>
+          <item>contains any appendixes, etc., following the main part of a text.      Elements specific to front and back matter are described below in section                   </item>
+        </list>
+        <ptr target="U5-fronbac">. In this section we discuss the elements making up the body of a text. </ptr>
+      </p>
+      <div2 id="divs" type="div2">
+        <head>Text Division Elements</head>
+        <p>The body of a prose text may be just a series of paragraphs, or these paragraphs may be grouped together into chapters, sections, subsections, etc. In the former case, each paragraph is tagged using the                       
+          <gi>p  tag. In the latter case, the           </gi>
+          <gi>body  may be divided either into a series of           </gi>
+          <gi>div1  elements, or into a series of           </gi>
+          <gi>div  elements, either of which may be further subdivided, as discussed below:           </gi>
+          <list type="gloss">
+            <label>
+              <gi>p</gi>
+            </label>
+            <item>marks paragraphs in prose.</item>
+            <label>
+              <gi>div</gi>
+            </label>
+            <item>contains a subdivision of the front, body, or back of a text.</item>
+            <label>
+              <gi>div1</gi>
+            </label>
+            <item>contains a first-level subdivision of the front, body, or back of a text (the largest, if                               
+              <gi>div0  is not used, the second largest if it is).              </gi>
+            </item>
+          </list>
+        </p>
+        <p>When structural subdivisions smaller than a                       
+          <gi>div1  are necessary, a           </gi>
+          <gi>div1  may be divided into           </gi>
+          <gi>div2  elements, a           </gi>
+          <gi>div2  into smaller           </gi>
+          <gi>div3  elements, etc., down to the level of           </gi>
+          <gi>div7 .  If more than seven levels of structural division are present, one must either modify the TEI tag set to accept           </gi>
+          <gi TEI="no">div8 , etc., or else use the unnumbered           </gi>
+          <gi>div  element:  a           </gi>
+          <gi>div  may be subdivided by smaller           </gi>
+          <gi>div  elements, without limit to the depth of nesting.          </gi>
+        </p>
+        <p>All these                       
+          <term>division  elements take the following three attributes:           </term>
+          <list type="gloss">
+            <label>
+              <ident>type</ident>
+            </label>
+            <item>This indicates the conventional name for this category of text division.  Its value will typically be                               
+              <q>Book ,               </q>
+              <q>Chapter ,               </q>
+              <q>Poem , etc.  Other possible values include               </q>
+              <q>Group  for groups of poems, etc., treated as a single unit,               </q>
+              <q>Sonnet ,               </q>
+              <q>Speech , and               </q>
+              <q>Song .  Note that whatever value is supplied for the               </q>
+              <ident>type  attribute  of the first               </ident>
+              <gi>div ,               </gi>
+              <gi>div1 ,               </gi>
+              <gi>div2 , etc., in a text is assumed to apply for all subsequent               </gi>
+              <gi>div ,               </gi>
+              <gi>div1 s (etc.) within the same               </gi>
+              <gi>body . This implies that a value must be given for the first division element of each type, or whenever the value changes.               </gi>
+            </item>
+            <label>
+              <ident>id</ident>
+            </label>
+            <item>This specifies a unique identifier for the division, which may be used for cross references or other links to it, such as a commentary, as further discussed in section                               
+              <ptr target="U5-ptrs">. It is often useful to provide an </ptr>
+              <ident>id  attribute for every major structural unit in a text, and to derive the ID values in some systematic way, for example by appending a section number to a short code for the title of the work in question, as in the examples below.              </ident>
+            </item>
+            <label>
+              <ident>n</ident>
+            </label>
+            <item>The                               
+              <ident>n  attribute specifies a mnemonic short name or number for the division, which can be used to identify it in preference to the value given for the               </ident>
+              <ident>id  attribute.  If a conventional form of reference or abbreviation for the parts of a work already exists (such as the book/chapter/verse pattern of Biblical citations), the               </ident>
+              <ident>n  attribute is the place to record it.              
+
+
+ The attributes                                     </ident>
+            </item>
+          </list>
+          <ident>id  and           </ident>
+          <ident>n , indeed, are so widely useful that they are allowed on any element in any TEI DTD:  they are           </ident>
+          <term>global attributes .  Other global attributes defined in the TEI Lite scheme are discussed in section           </term>
+          <ptr target="xatts">.</ptr>
+        </p>
+        <p>The value of every                       
+          <ident>id  attribute must be unique within a document. One simple way of ensuring that this is so is to make it reflect the hierarchic structure of the document. For example, Smith&apos;s           </ident>
+          <title>Wealth of Nations  as first published consists of five books, each of which is divided into chapters, while some chapters are further subdivided into parts. We might define           </title>
+          <ident>id  values for this structure as follows:            </ident>
+          <eg>
+            <![CDATA[<div1 id="WN1" n="I" type="boo>
+            <div2 id="WN101" n="I.1" type="chapter">    ... </div2>
+            <div2 id="WN102" n="I.2" type="chapter">    ...      ...               </div2>
+            <div2 id="WN110" n="I.10" type="chapter">
+              <div3 id="WN1101" n="I.10.1" type="part">       ... </div3>
+              <div3 id="WN1102" n="I.10.2" type="part">       ...      ...                            </div3>
+            </div2>
+          </eg>
+          <div1 id="WN2" n="II" type="book">    ....    ... ]]&gt;          </div1>
+        </p>
+      </div2>
+      <p>A different numbering scheme may be used for                   
+        <ident>id  and         </ident>
+        <ident>n  attributes: this is often useful where a canonical reference scheme is used which does not tally with the structure of the work.  For example, in a novel divided into books each containing chapters, where the chapters are numbered sequentially through the whole work, rather than within each book, one might use a scheme such as the following:          </ident>
+        <eg>
+          <![CDATA[<div1 id="TS01" n="1" type="Volum>
+          <div2 id="TS011" n="1" type="Chapter">       ... </div2>
+          <div2 id="TS012" n="2">       ...</div2>
+        </eg>
+        <div1 id="TS02" n="2" type="Volume">
+          <div2 id="TS021" n="3" n="3"type="Chapter">       ...</div2>
+          <div2 id="TS022" n="4">       ...  ]]&gt;                  
+
+
+   Here the work has two volumes, each containing two chapters.
+The chapters are numbered conventionally 1 to 4, but the                         </div2>
+        </div1>
+      </p>
+      <ident>id  values specified allow them to be regarded additionally as if they were numbered 1.1, 1.2, 2.1, 2.2.      </ident>
+    </div1>
+  </text>
+  <div2 id="h25" type="div2">
+    <head>Headings and Closings</head>
+    <p>Every               
+      <gi>div ,       </gi>
+      <gi>div1 ,       </gi>
+      <gi>div2 , etc., may have a title or heading at its start, and (less commonly) a closing such as       </gi>
+      <q>End of Chapter 1 .  The following elements may be used to transcribe them:       </q>
+      <list type="gloss">
+        <label>
+          <gi>head</gi>
+        </label>
+        <item>contains any heading, for example, the title of a section, or the heading of a list or glossary.</item>
+        <label>
+          <gi>trailer</gi>
+        </label>
+        <item>contains a closing title or footer appearing at the end of  a division of a text.    Some other elements which may be necessary at the beginning or ending of text divisions are discussed below in section               </item>
+      </list>
+      <ptr target="h52"> .</ptr>
+    </p>
+    <p>Whether or not headings and trailers are included in a transcription is a matter for the individual transcriber to decide. Where a heading is completely regular (for example               
+      <q>Chapter 1 ) or has been given as an attribute value (e.g.       </q>
+      <gi>div1 type=&quot;Chapter&quot; n=&quot;1&quot; ), it may be omitted; where it contains otherwise unrecoverable text it should always be included.  For example, the start of Hardy&apos;s       </gi>
+      <title>Under the Greenwood Tree  might be encoded as follows:       </title>
+      <eg>
+        <![CDATA[<div1 id="UGT1" n="Winter" type="Par>
+        <div2 id="UGT11" n="1" type="Chapter">
+          <head>Mellstock-Lane</head>
+          <p>To dwellers in a wood almost every species of tree ...]]&gt;</p>
+        </div2>
+      </eg>
+      <div2 id="vedr" type="div2">
+        <head>Prose, Verse and Drama</head>
+        <p>As noted above, the paragraphs making up a textual division should be tagged with the                       
+          <gi>p  tag. For example:           </gi>
+          <eg>
+            <![CDATA[<bo>
+            <p>I fully appreciate Gen. Pope&apos;s splendid achievements with their invaluable results; but you must know that Major Generalships in the Regular Army, are not as plenty as blackberries.   ]]&gt;                      </p>
+          </eg>
+        </p>
+        <!-- Is this quote right? shouldn't it be "plentIFUL"? -->
+        <!-- A. Lincoln to Richard Yates and William Butler, 10 Apr 1862,
+ -->-  Library of America, Lincoln, v. 2 p. 315.  --&gt;                  
+        <!---->&gt;                             
+        <p>A number of different tags are provided for the encoding of the structural components of verse and performance texts (drama, film, etc.):                       
+          <list type="gloss">
+            <label>
+              <gi>l</gi>
+            </label>
+            <item>contains a single, possibly incomplete, line of verse. Attributes include:                               
+              <list type="gloss">
+                <label>
+                  <ident>part</ident>
+                </label>
+                <item>specifies whether or not the line is metrically complete. Legal values are:                                       
+                  <code>F  for the final part of an incomplete line,                   </code>
+                  <code>Y  if the line is metrically incomplete,                   </code>
+                  <code>N  if the line is complete, or if no claim is made as to its completeness,                   </code>
+                  <code>I  for the initial part of an incomplete line,                   </code>
+                  <code>M   for a medial part of an incomplete line.                  </code>
+                </item>
+              </list>
+            </item>
+            <label>
+              <gi>lg</gi>
+            </label>
+            <item>contains a group of verse lines functioning as a formal unit e.g. a stanza, refrain, verse paragraph, etc.</item>
+            <label>
+              <gi>sp</gi>
+            </label>
+            <item>contains an individual speech in a performance text, or a passage  presented as such in a prose or verse text. Attributes include:                               
+              <list type="gloss">
+                <label>
+                  <ident>who</ident>
+                </label>
+                <item>identifies the speaker of the part by supplying an ID.</item>
+              </list>
+            </item>
+            <label>
+              <gi>speaker</gi>
+            </label>
+            <item>contains a special form of heading or label, giving the name of one or more speakers in a performance text or fragment.</item>
+            <label>
+              <gi>stage</gi>
+            </label>
+            <item>contains any kind of stage direction within a performance text or fragment. Attributes include:                               
+              <list type="gloss">
+                <label>
+                  <ident>type</ident>
+                </label>
+                <item>indicates the kind of stage direction. Suggested values include                                        
+                  <kw>entrance ,                   </kw>
+                  <kw>exit ,                   </kw>
+                  <kw>setting ,                   </kw>
+                  <kw>delivery , etc.                  </kw>
+                </item>
+              </list>
+            </item>
+          </list>
+        </p>
+        <p>Here, for example, is the start of a poetic text in which verse lines and stanzas are tagged:                       
+          <eg>
+            <![CDATA[<lg n=">
+            <l>I Sing the progresse of a    deathlesse soule,</l>
+            <l>Whom Fate, with God made,   but doth not controule,</l>
+            <l>Plac&apos;d in most shapes; all times   before the law</l>
+            <l>Yoak&apos;d us, and when, and since,   in this I sing.</l>
+            <l>And the great world to his aged evening;</l>
+            <l>From infant morne, through manly noone I draw.</l>
+            <l>What the gold Chaldee, of silver Persian saw,</l>
+            <l>Greeke brass, or Roman iron, is in this one;</l>
+            <l>A worke t&apos;out weare Seths pillars, bricke and stone,</l>
+            <l>And (holy writs excepted) made to yeeld to none,  ]]&gt;                      </l>
+          </eg>
+        </p>
+      </div2>
+      <p>Note that the                   
+        <gi>l  element marks verse lines, not typographic lines: the original lineation of the first few lines above has not therefore been made explicit by this encoding, and may be lost. The         </gi>
+        <gi>lb  element described in section         </gi>
+        <ptr target="U5-pln"> may be used to mark typographic lines if so desired.</ptr>
+      </p>
+      <p>Sometimes, particularly in dramatic texts, verse lines are split between speakers. The easiest way of encoding this is to use the                   
+        <ident>part  attribute to indicate that the lines so fragmented are incomplete, as in this example:         </ident>
+        <eg>
+          <![CDATA[<div1 type ="Act" n=">
+          <head>ACT I</head>
+          <div2 n="1" type="Scene">
+            <head>SCENE I</head>
+            <stage rend="italic"> Enter Barnardo and Francisco, two Sentinels, at several doors</stage>
+            <sp>
+              <speaker>Barn</speaker>
+              <l part="Y">Who&apos;s there?</l>
+            </sp>
+            <sp>
+              <speaker>Fran</speaker>
+              <l>Nay, answer me. Stand and unfold    yourself.</l>
+            </sp>
+            <sp>
+              <speaker>Barn</speaker>
+              <l part="i">Long live the King!</l>
+            </sp>
+            <sp>
+              <speaker>Fran</speaker>
+              <l part="m">Barnardo?</l>
+            </sp>
+            <sp>
+              <speaker>Barn</speaker>
+              <l part="f">He.</l>
+            </sp>
+            <sp>
+              <speaker>Fran</speaker>
+              <l>You come most carefully upon    your hour.  ]]&gt;                          </l>
+            </sp>
+          </div2>
+        </eg>
+        <p>The same mechanism may be applied to stanzas which are divided between two speakers:                       
+          <eg>
+            <![CDATA[<>
+            <speaker>First voice</speaker>
+            <lg part="I" type="stanza">
+              <l>But why drives on that ship so fast</l>
+              <l>Withouten wave or wind?</l>
+            </lg>
+            <sp>
+              <speaker>Second Voice</speaker>
+              <lg part="F">
+                <l>The air is cut away before.</l>
+                <l>And closes from behind.  ]]&gt;                              </l>
+              </lg>
+            </sp>
+          </eg>
+          <p>This example shows how dialogue presented in a prose work as if it were drama should be encoded. It also demonstrates the use of the                           
+            <ident>who  attribute to bear a code identifying the speaker of the piece of dialogue concerned:             </ident>
+            <eg>
+              <![CDATA[<sp who="OP>
+              <speaker>The reverend Doctor Opimiam</speaker>
+              <p>I do not think I have named a single unpresentable fish.</p>
+            </eg>
+            <sp who="GRM">
+              <speaker>Mr Gryll</speaker>
+              <p>Bream, Doctor: there is not much to be said for bream.</p>
+            </sp>
+            <sp who="OPI">
+              <speaker>The Reverend Doctor Opimiam</speaker>
+              <p>On the contrary, sir, I think there is much to be said for him.  In the first place....</p>
+              <p>Fish, Miss Gryll -- I could discourse to you on fish by the hour:  but for the present I will forbear.  ]]&gt;                          </p>
+            </sp>
+          </p>
+          <!-- Peacock, Gryll Grange, p 778 -->&gt;                           
+        </p>
+      </p>
+      <div1 id="U5-pln" type="Section">
+        <head>Page and Line Numbers</head>
+        <p>Page and line breaks may be marked with the following empty elements.                       
+          <list type="gloss">
+            <label>
+              <gi>pb</gi>
+            </label>
+            <item>marks the boundary between one page of a text and the next in a standard reference system.</item>
+            <label>
+              <gi>lb</gi>
+            </label>
+            <item>marks the start of a new (typographic) line in some  edition or version of a text.      These elements mark a single point in the text, not a span of text. The global                       </item>
+          </list>
+          <ident>n  attribute should be used to supply the number of the page or line beginning at the tag. In addition, these two elements share the following attribute:           </ident>
+          <list type="gloss">
+            <label>
+              <ident>ed</ident>
+            </label>
+            <item>indicates the edition or version in which the page break is located at this point.</item>
+          </list>
+        </p>
+        <p>When working from a paginated original, it is often useful to record its pagination, if only to simplify later proof-reading. Recording the line breaks may be useful for the same reason; treatment of end-of-line hyphenation in printed source texts will require some consideration.</p>
+        <p>If pagination, etc., are marked for more than one edition, specify the edition in question using the                       
+          <ident>ed  attribute, and supply as many tags are necessary. For example, in the following passage we indicate where the page breaks occur in two different editions (          </ident>
+          <ident>ED1  and           </ident>
+          <ident>ED2 )           </ident>
+          <eg>
+            <![CDATA[> wrote to Moor House and to Cambridge immediately, to say what I had done: fully explaining also why I had thus acted.  Diana and                           
+            <pb ed="ED1" n="475"> Mary approved the step unreservedly.  Diana announced that she would </pb>
+            <pb ed="ED2" n="485">just give me time to get over the honeymoon, and then she would come and see me.  ]]&gt;                      </pb>
+          </eg>
+        </p>
+      </div1>
+      <p>The                   
+        <gi>pb  and         </gi>
+        <gi>lb  elements are special cases of the general class of         </gi>
+        <term>milestone  elements which mark reference points within a text.  TEI Lite also includes a generic         </term>
+        <gi>milestone  element, which is not restricted to special cases but can  mark any kind of reference point:  for example, a column break, the start of a new kind of section not otherwise tagged, etc. This element has the following description and attributes:         </gi>
+        <list type="gloss">
+          <label>
+            <gi>milestone</gi>
+          </label>
+          <item>marks the boundary between sections of a text, as indicated by changes in a standard reference system. Attributes include:                           
+            <list type="gloss">
+              <label>
+                <ident>ed</ident>
+              </label>
+              <item>indicates the 	 edition or version to which the milestone 	 applies.</item>
+              <label>
+                <ident>unit</ident>
+              </label>
+              <item>indicates what kind of section is changing at this milestone.</item>
+            </list>
+          </item>
+        </list>
+      </p>
+      <p>The names used for types of unit and for editions referred to by the                   
+        <ident>ed  and         </ident>
+        <ident>unit  attributes may be chosen freely, but should be documented in the header.        </ident>
+      </p>
+      <p>The                   
+        <gi>milestone  element may be used to replace the others, or the others may be used as a set; they should not be mixed arbitrarily.        </gi>
+      </p>
+    </p>
+    <div1 id="U5-hilites" type="Section">
+      <head>Marking Highlighted Phrases</head>
+      <div2 id="faces" type="div2">
+        <head>Changes of Typeface, etc.</head>
+        <p>Highlighted words or phrases are those made visibly different from the rest of the text, typically by a change of type font, handwriting style, or ink color, intended to draw the reader&apos;s attention to       them.</p>
+        <p>The global                       
+          <ident>rend  attribute can be attached to any element, and used wherever necessary to specify details of the highlighting used for it. For example, a heading rendered in bold might be tagged           </ident>
+          <code lang="sgml">head rend=&quot;bold&quot; , and one in italic           </code>
+          <code lang="sgml">head rend=&quot;italic&quot; .          </code>
+        </p>
+        <p>It is not always possible or desirable to interpret the reasons for such changes of rendering in a text.  In such cases, the element                       
+          <gi>hi  may be used to mark a sequence of  highlighted text without making any claim as to its status.           </gi>
+          <list type="gloss">
+            <label>
+              <gi>hi</gi>
+            </label>
+            <item>marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is 	made.</item>
+          </list>
+        </p>
+        <p>In the following example, the use of a distinct typeface for the subheading and for the included name are recorded but not interpreted:                       
+          <eg>
+            <![CDATA[>
+            <hi rend="gothic">And this Indenture further witnesseth  that the said             </hi>
+            <hi rend="italic">Walter Shandy , merchant, in consideration of the said intended marriage ...              ]]&gt;                      </hi>
+          </eg>
+        </p>
+      </div2>
+      <p>Alternatively, where the cause for the highlighting can be identified with confidence, a number of other, more specific, elements are available.                   
+        <list type="gloss">
+          <label>
+            <gi>emph</gi>
+          </label>
+          <item>marks words or phrases which are stressed or emphasized for linguistic or rhetorical effect.</item>
+          <label>
+            <gi>foreign</gi>
+          </label>
+          <item>identifies a word or phrase as belonging to some language other than that of the surrounding text. </item>
+          <label>
+            <gi>mentioned</gi>
+          </label>
+          <item>marks words or phrases mentioned, not used.</item>
+          <label>
+            <gi>term</gi>
+          </label>
+          <item>contains a single-word, multi-word or symbolic designation which is regarded as a technical term.</item>
+          <label>
+            <gi>title</gi>
+          </label>
+          <item>contains the title of a work, whether article, book, journal, or series, including any alternative titles or subtitles. Attributes include:                           
+            <list type="gloss">
+              <label>
+                <ident>level</ident>
+              </label>
+              <item>indicates whether this is the title of an article, book, journal, series, or unpublished material. Legal values are:                                   
+                <kw>m  for monographic title (book, collection, or other item published as a distinct item, including single volumes of multi-volume works);                 </kw>
+                <kw>s  (series title);                 </kw>
+                <kw>j  (journal title);                 </kw>
+                <kw>u  for title of unpublished material (including theses and dissertations unless published by a commercial press);                 </kw>
+                <kw>a  for analytic title (article, poem, or other item published as part of a larger item).                </kw>
+              </item>
+              <label>
+                <ident>type</ident>
+              </label>
+              <item>classifies the title according to some convenient typology. Sample values include:                                   
+                <code>abbreviated ,                 </code>
+                <code>main ,                 </code>
+                <code>subordinate  (for subtitles and titles of parts), and                 </code>
+                <code>parallel  (for alternate titles, often in another language, by which the work is also known).                </code>
+              </item>
+            </list>
+          </item>
+        </list>
+      </p>
+      <p>Some features (notably quotations and glosses) may be found in a text either marked by highlighting, or with quotation marks.  In either case, the elements                   
+        <gi>q  and         </gi>
+        <gi>gloss  (as discussed in the following section) should be used. If the rendition is to be recorded, use the global         </gi>
+        <ident>rend  attribute.        </ident>
+      </p>
+      <p>As an example of the elements defined here, consider the following sentence:                  
+        <!-- Theodore M. Andersson, Preface to the Nibelungenlied, p. 3 -->
+        <q rend="display">On the one hand the                       
+          <title>Nibelungenlied  is associated with the new rise of romance of twelfth-century France, the           </title>
+          <hi rend="ital">romans d&apos;antiquité; , the romances of Chrétien de Troyes, and the German adaptations of these works by Heinrich van Veldeke, Hartmann von Aue, and Wolfram von Eschenbach.             Interpreting the role of the highlighting, the sentence might look like this:                   </hi>
+        </q>
+        <eg>
+          <![CDATA[>n the one hand the                       
+          <title>Nibelungenlied  is associated with the new rise of romance of twelfth-century France, the           </title>
+          <foreign>romans d&apos;antiquit&amp;eacute; , the romances of Chr&amp;eacute;tien de Troyes, ...            ]]&gt;                  
+
+
+
+Describing only the appearance of the original, it might look
+like this:
+                        </foreign>
+        </eg>
+      </p>
+      <eg>
+        <![CDATA[>n the one hand the                   
+        <hi rend="italic">Nibelungenlied  is associated with the new rise of romance of twelfth-century France, the         </hi>
+        <hi rend="italic">romans d&apos;antiquit&amp;eacute; , the romances of Chr&amp;eacute;tien de Troyes, ...          ]]&gt;              </hi>
+      </eg>
+    </div1>
+    <!---->&gt;               
+  </div2>
+  <div2 id="z635" type="div2">
+    <head>Quotations and Related       Features</head>
+    <p>Like changes of typeface, quotation marks are conventionally used to denote several different features within a text, of which the most frequent is quotation.  When possible, we recommend that the underlying feature be tagged, rather than the simple fact that quotation marks appear in the text, using the following elements:               
+      <list type="gloss">
+        <label>
+          <gi>q</gi>
+        </label>
+        <item>contains a quotation or apparent quotation --- a representation of speech or thought marked as being quoted from someone else (whether in fact quoted or not); in narrative, the words are usually those of a character or speaker; in dictionaries,                       
+          <gi>q  may be used to mark real or contrived examples of usage.  Attributes include:           </gi>
+          <list type="gloss">
+            <label>
+              <ident>type</ident>
+            </label>
+            <item>may be used to indicate whether the quoted matter is spoken or thought, or to characterize it more finely. Sample values include:                               
+              <kw>spoken  (for representation of direct speech, usually marked by quotation marks) and               </kw>
+              <kw>thought  (for representation of thought, e.g. internal monologue).              </kw>
+            </item>
+            <label>
+              <ident>who</ident>
+            </label>
+            <item>identifies the speaker of a piece of direct speech.</item>
+          </list>
+        </item>
+        <label>
+          <gi>mentioned</gi>
+        </label>
+        <item>marks words or phrases mentioned, not used.</item>
+        <label>
+          <gi>soCalled</gi>
+        </label>
+        <item>contains a word or phrase for which the author or narrator indicates a disclaiming of responsibility, for example by the use of scare quotes or italics.</item>
+        <label>
+          <gi>gloss</gi>
+        </label>
+        <item>marks a word or phrase which provides a gloss or definition for some other word or phrase.  Attributes include:                       
+          <list type="gloss">
+            <label>
+              <ident>target</ident>
+            </label>
+            <item>identifies the associated word or phrase.</item>
+
+
+   Here is a simple example of a quotation:
+                        </list>
+        </item>
+      </list>
+      <eg>
+        <![CDATA[>ew dictionary makers are likely to forget Dr. Johnson&apos;s description of the lexicographer as                   
+        <q>a harmless drudge.  ]]&gt;              </q>
+      </eg>
+    </p>
+  </div2>
+  <p>To record how a quotation was printed (for example,           
+    <term>in-line  or set off as a     </term>
+    <term>display  or     </term>
+    <term>block quotation ), the     </term>
+    <ident>rend  attribute should be used. This may also be used to indicate the kind of quotation marks used.    </ident>
+  </p>
+  <p>Direct speech interrupted by a narrator can be represented simply by ending the quotation and beginning it again after the interruption, as in the following example:           
+    <eg>
+      <![CDATA[>
+      <q>Who-e debel you?  &amp;mdash; he at last said &amp;mdash;       </q>
+      <q>you no speak-e, damme, I kill-e.   And so saying, the lighted tomahawk began flourishing about me in the dark.        ]]&gt;          
+
+
+If it is important to convey the idea that the two             </q>
+    </eg>
+  </p>
+  <gi>q  elements together reproduce a single speech, the linking attributes   </gi>
+  <ident>next  and   </ident>
+  <ident>prev  may be used, as described in section   </ident>
+  <ptr target="xatts">.</ptr>
+</TEI.2>
+<p>Quotations may be accompanied by a reference to the source or speaker, using the       
+  <ident>who  attribute, whether or not the source is given in the text, as in the following example:   </ident>
+  <eg>
+    <![CDATA[<q who="Wilso>paulding, he came down into the office just this day eight weeks with this very paper in his hand, and he says:&amp;mdash;          
+    <q who="Spaulding">I wish to the Lord, Mr. Wilson, that I was a red-headed man.  ]]&gt;      </q>
+  </eg>
+</p>

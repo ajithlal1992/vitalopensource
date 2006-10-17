@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<toolbox>
+	<tool>
+		<key>date</key>
+		<scope>toolbox_application</scope>
+		<class>org.apache.velocity.tools.generic.DateTool</class>
+	</tool>
+	<tool>
+		<key>toolbox_cookie</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.view.tools.CookieTool</class>
+	</tool>
+	<tool>
+		<key>toolbox_escape</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.EscapeTool</class>
+	</tool>
+	<tool>
+		<key>toolbox_alternator</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.AlternatorTool</class>
+	</tool>
+	<tool>
+		<key>toolbox_parameters</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.view.tools.ParameterParser</class>
+	</tool>
+ 	<tool>
+		<key>toolbox_link</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.view.tools.LinkTool</class>
+	</tool>
+
+	<data type="string">
+		<key>corporate_author</key>
+		<value>VTLS Inc.</value>
+	</data>
+</toolbox>

@@ -1,0 +1,28 @@
+body
+{
+	background-color: #000;
+	color: #fff;
+	font:88%/140% "Helvetica Neue", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	margin: 32px;
+}
+
+#container
+{
+	width: 320px;	
+	margin: 0 auto; /* Centering */
+}
+
+div.debugging
+{
+   background-color: #fee;
+   border: solid red 5px;
+   padding: 16px;
+   margin: 16px 0 16px 0;
+   color: #000;
+}
+
+div.debugging table tbody td.first
+{
+   width: 128px;
+   color: #877;
+}

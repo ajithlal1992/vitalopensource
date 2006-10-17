@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2.2.dtd">
+
+<web-app>
+	<display-name>VTLS OpenSource</display-name>
+
+   <!-- ========================================================= -->
+   <!-- http://localhost:8080/vtls/vital/* -->
+
+	<filter>
+		<filter-name>ArchitectureFilter</filter-name>
+		<filter-class>com.vtls.opensource.vital.architecture.ArchitectureFilter</filter-class>
+      <init-param>
+         <param-name>vital.properties</param-name>
+         <param-value>/WEB-INF/vital.properties</param-value>
+      </init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>ArchitectureFilter</filter-name>
+		<url-pattern>/vital/*</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+   	<servlet-name>ArchitectureServlet</servlet-name>
+   	<display-name>VITAL ArchitectureServlet</display-name>
+   	<servlet-class>com.vtls.opensource.vital.architecture.ArchitectureServlet</servlet-class>
+		<init-param>
+			<param-name>actions</param-name>
+			<param-value>com.vtls.actions</param-value>
+		</init-param>
+		<init-param>
+			<param-name>genericAction</param-name>
+			<param-value>com.vtls.actions.GenericAction</param-value>
+		</init-param>
+
+		<!-- Repeat for all packages that require authentication. A LoginAction
+		     will need to be present to function correctly. -->
+		<init-param>
+			<param-name>com.vtls.actions.opensource.workflow</param-name>
+			<param-value>com.vtls.actions.opensource.LoginAction</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+   	<servlet-name>ArchitectureServlet</servlet-name>
+   	<url-pattern>/vital/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>velocity</servlet-name>
+		<servlet-class>org.apache.velocity.tools.view.servlet.VelocityViewServlet</servlet-class>
+		<init-param>
+			<param-name>org.apache.velocity.toolbox</param-name>
+			<param-value>/WEB-INF/toolbox.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>org.apache.velocity.properties</param-name>
+			<param-value>/WEB-INF/velocity.properties</param-value>
+		</init-param>
+		<load-on-startup>10</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>velocity</servlet-name>
+		<url-pattern>*.vm</url-pattern>
+	</servlet-mapping>
+
+   <error-page>
+      <error-code>404</error-code>
+      <location>/vital/Index?debug=on</location>
+   </error-page>
+
+   <error-page>
+      <exception-type>java.lang.Exception</exception-type>
+      <location>/vital/Index?debug=on</location>
+   </error-page>
+
+   <welcome-file-list>
+      <welcome-file>vital</welcome-file>
+   </welcome-file-list>
+
+</web-app>

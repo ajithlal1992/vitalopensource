@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<METS:mets LABEL="sample.rtf" OBJID="vital:1" PROFILE="VITAL" TYPE="FedoraObject" xmlns:METS="http://www.loc.gov/METS/" xmlns:audit="info:fedora/fedora-system:def/audit#" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xlink="http://www.w3.org/TR/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.fedora.info/definitions/1/0/mets-fedora-ext.xsd">
+  <METS:metsHdr CREATEDATE="2005-08-15T21:10:10.960Z" LASTMODDATE="2005-08-15T21:10:56.237Z" RECORDSTATUS="A"/>
+  <METS:amdSec ID="AUDIT" STATUS="A">
+    <METS:digiprovMD CREATED="2005-08-15T21:10:26.853Z" ID="AUDREC1">
+      <METS:mdWrap LABEL="Audit record for 'modifyDatastreamByValue' action by fedoraAdmin at 2005-08-15T21:10:26.853Z" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="FEDORA-AUDIT">
+        <METS:xmlData>
+          <audit:record>
+            <audit:process type="Fedora API-M"/>
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DC</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2005-08-15T21:10:26.853Z</audit:date>
+            <audit:justification>Automatic.</audit:justification>
+          </audit:record>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+    <METS:digiprovMD CREATED="2005-08-15T21:10:28.066Z" ID="AUDREC2">
+      <METS:mdWrap LABEL="Audit record for 'addDatastream' action by fedoraAdmin at 2005-08-15T21:10:28.066Z" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="FEDORA-AUDIT">
+        <METS:xmlData>
+          <audit:record>
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>DS1</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2005-08-15T21:10:28.066Z</audit:date>
+            <audit:justification>None.</audit:justification>
+          </audit:record>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+    <METS:digiprovMD CREATED="2005-08-15T21:10:38.105Z" ID="AUDREC3">
+      <METS:mdWrap LABEL="Audit record for 'addDatastream' action by fedoraAdmin at 2005-08-15T21:10:38.105Z" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="FEDORA-AUDIT">
+        <METS:xmlData>
+          <audit:record>
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>JHOVE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2005-08-15T21:10:38.105Z</audit:date>
+            <audit:justification>None.</audit:justification>
+          </audit:record>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+    <METS:digiprovMD CREATED="2005-08-15T21:10:54.955Z" ID="AUDREC4">
+      <METS:mdWrap LABEL="Audit record for 'addDatastream' action by fedoraAdmin at 2005-08-15T21:10:54.955Z" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="FEDORA-AUDIT">
+        <METS:xmlData>
+          <audit:record>
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>FULLTEXT</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2005-08-15T21:10:54.955Z</audit:date>
+            <audit:justification>None.</audit:justification>
+          </audit:record>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+    <METS:digiprovMD CREATED="2005-08-15T21:10:56.223Z" ID="AUDREC5">
+      <METS:mdWrap LABEL="Audit record for 'addDatastream' action by fedoraAdmin at 2005-08-15T21:10:56.223Z" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="FEDORA-AUDIT">
+        <METS:xmlData>
+          <audit:record>
+            <audit:process type="Fedora API-M"/>
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>DS2</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2005-08-15T21:10:56.223Z</audit:date>
+            <audit:justification>None.</audit:justification>
+          </audit:record>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:amdSec ID="DC" STATUS="A">
+    <METS:techMD CREATED="2005-08-15T21:10:10.960Z" ID="DC1.0">
+      <METS:mdWrap LABEL="Dublin Core Metadata" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="UNSPECIFIED">
+        <METS:xmlData>
+          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+            <dc:title>sample.rtf</dc:title>
+            <dc:identifier>vital:1</dc:identifier>
+          </oai_dc:dc>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:techMD>
+    <METS:techMD CREATED="2005-08-15T21:10:26.853Z" ID="DC.1">
+      <METS:mdWrap LABEL="Dublin Core" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="UNSPECIFIED">
+        <METS:xmlData>
+          <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+            <dc:identifier>vital:1</dc:identifier>
+            <dc:title>sample.rtf</dc:title>
+            <dc:format>application/rtf</dc:format>
+            <dc:source>sample.rtf</dc:source>
+          </oai_dc:dc>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:techMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp ID="DATASTREAMS">
+      <METS:fileGrp ID="DS1" STATUS="A">
+        <METS:file CREATED="2005-08-15T21:10:28.066Z" ID="DS1.0" MIMETYPE="application/rtf" OWNERID="M" SIZE="0">
+          <METS:FLocat LOCTYPE="URL" xlink:href="http://shiva.vtls.com:8080/fedora/get/vital:1/DS1/2005-08-15T21:10:28.066Z" xlink:title="Rich Text Format"/>
+        </METS:file>
+      </METS:fileGrp>
+      <METS:fileGrp ID="JHOVE" STATUS="A">
+        <METS:file CREATED="2005-08-15T21:10:38.105Z" ID="JHOVE.0" MIMETYPE="text/xml" OWNERID="M" SIZE="0">
+          <METS:FLocat LOCTYPE="URL" xlink:href="http://shiva.vtls.com:8080/fedora/get/vital:1/JHOVE/2005-08-15T21:10:38.105Z" xlink:title="Technical Metadata"/>
+        </METS:file>
+      </METS:fileGrp>
+      <METS:fileGrp ID="FULLTEXT" STATUS="A">
+        <METS:file CREATED="2005-08-15T21:10:54.955Z" ID="FULLTEXT.0" MIMETYPE="text/plain" OWNERID="M" SIZE="0">
+          <METS:FLocat LOCTYPE="URL" xlink:href="http://shiva.vtls.com:8080/fedora/get/vital:1/FULLTEXT/2005-08-15T21:10:54.955Z" xlink:title="Full Text"/>
+        </METS:file>
+      </METS:fileGrp>
+      <METS:fileGrp ID="DS2" STATUS="A">
+        <METS:file CREATED="2005-08-15T21:10:56.223Z" ID="DS2.0" MIMETYPE="text/xml" OWNERID="M" SIZE="0">
+          <METS:FLocat LOCTYPE="URL" xlink:href="http://shiva.vtls.com:8080/fedora/get/vital:1/DS2/2005-08-15T21:10:56.223Z" xlink:title="VITAL Metadata"/>
+        </METS:file>
+      </METS:fileGrp>
+    </METS:fileGrp>
+  </METS:fileSec>
+</METS:mets>

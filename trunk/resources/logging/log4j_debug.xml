@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+   
+   <!-- Appender for standard error. -->
+   <appender name="STDERR" class="org.apache.log4j.ConsoleAppender">
+      <param name="Target" value="System.err" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <!--<param name="ConversionPattern" value="%-5p %d{yyyy'-'MM'-'dd'T'HH:mm:ss} - %m%n" />-->
+         <param name="ConversionPattern" value="-------------------------------------------------------------------%n%-5p [%d{yyyy'-'MM'-'dd'T'HH:mm:ss.SSS}] - %F:%L%n      %m %n"/>
+      </layout>
+   </appender>
+    
+   <!-- Good old-fashioned rollover logging. -->
+   <appender name="Debugging" class="org.apache.log4j.RollingFileAppender">
+      <param name="File" value="vital_debug.log"/>
+      <param name="Append" value="true"/>
+      <param name="MaxFileSize" value="5MB"/>
+      <param name="MaxBackupIndex" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="-------------------------------------------------------------------------------%n%-5p [%d{yyyy'-'MM'-'dd'T'HH:mm:ss.SSS}] - %F:%L%n      %m %n"/>
+      </layout>
+      <filter class="org.apache.log4j.varia.LevelRangeFilter">
+         <param name="LevelMin" value="DEBUG"/>
+         <param name="LevelMax" value="FATAL"/>
+      </filter>
+   </appender>
+
+   <!-- Logger for com.vtls classes. -->
+   <category name="com.vtls" additivity="false">
+      <level value="info" />
+      <appender-ref ref="STDERR"/>
+      <appender-ref ref="Debugging"/>
+   </category>
+
+   <category name="testing.com.vtls" additivity="false">
+      <level value="info" />
+      <appender-ref ref="STDERR"/>
+      <appender-ref ref="Debugging"/>
+   </category>
+
+   <category name="testing.javax.jmdns" additivity="false">
+      <level value="info" />
+      <appender-ref ref="STDERR"/>
+      <appender-ref ref="Debugging"/>
+   </category>
+
+   <root>
+      <level value="error" />
+      <appender-ref ref="Debugging"/>
+   </root>
+   
+</log4j:configuration>

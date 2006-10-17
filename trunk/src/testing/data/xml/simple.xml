@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<node attribute="value">Text value.</node>
+	<nodes>
+		<node>One</node>
+		<node>Two</node>
+		<node>Three</node>
+		<node>Four &amp; Five</node>
+	</nodes>
+</root>

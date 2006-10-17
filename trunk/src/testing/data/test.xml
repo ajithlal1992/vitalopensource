@@ -1,0 +1,10 @@
+<demo-xpath>
+  <database-access db-name="db1">
+    Here is to xpath!
+    <username>scott</username>
+    <password>tiger</password>
+    May be some text here.
+    Some more text here.
+  </database-access>
+  Last text line!
+</demo-xpath>

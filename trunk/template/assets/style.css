@@ -1,0 +1,456 @@
+/* Generic element styles */
+
+body
+{
+	margin: 0 0 16px 0;
+	padding: 0;
+	color:#000;
+	background-color: #fff;
+	font:88%/140% "Helvetica Neue", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+a, a:link
+{
+	color: #444;
+}
+
+a:active, a:hover
+{
+}
+
+a:visited
+{
+	color: #666;
+	text-transform: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+table
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-style: 0;
+}
+
+form
+{
+   margin: 0px 0px 0px 0px;
+   padding: 0px;
+   display: inline;
+}
+
+fieldset
+{
+	border: none;
+	margin: 0;
+	padding: 8px;
+}
+
+hr
+{
+	background-color: #e0e0e0;
+	height: 1px;
+	border:0;
+}
+
+legend
+{
+	color: #603;
+	font: bold 18px Helvetica, Arial, sans-serif;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+#container
+{
+	width:92%;	
+	margin: 0 auto; /* Centering */
+	margin-bottom: 16px;
+	min-width: 480px;
+}
+
+#banner-container
+{
+	background: url("header-background.png") repeat-x top left;			
+	padding: 16px;
+	border-bottom: solid #444 1px;
+}
+
+p#logo:before
+{
+   content: url("logo.png");
+}
+p#logo, #banner
+{
+   width: 274px;
+   height: 42px;
+   overflow: hidden;
+   margin: 0;
+}
+
+#banner
+{
+   padding: 0px;
+   margin-bottom:0px;
+}
+
+div#login
+{
+   color: #fff;
+}
+
+div#login
+{
+   float: right;
+   margin: 12px 16px 0 0;
+}
+
+a.login_text, a.logout_text
+{
+   font-size: 80%;
+   text-transform: uppercase;
+   letter-spacing: 0.3em;
+	text-decoration: none;
+}
+
+div.debugging
+{
+   background-color: #fee;
+   border: solid red 5px;
+   padding: 16px;
+   margin: 16px 0 16px 0;
+}
+
+div.debugging table tbody td.first
+{
+   width: 128px;
+   color: #877;
+}
+
+div.row
+{
+   clear: both;
+   margin: 1px 0 1px 0;
+}
+
+div.row span
+{
+   line-height: 1.5em;
+}
+
+div.row span.label
+{
+   display: block;
+   float: left;
+   width: 80px;
+   overflow: hidden;
+   text-align: right;
+   padding: 2px 8px 2px 2px;
+   color: #888;
+}
+
+div.row span.value
+{
+   display: block;
+   padding: 2px 2px 2px 8px;
+   margin-left: 96px;
+} 
+
+div.row.emphasis span.label
+{
+   font-weight: bold;
+}
+div.row.emphasis span.value
+{
+   font-size: 150%;
+   font-weight: bold;
+   line-height: 1.3em;
+   padding: 2px 2px 2px 8px;
+}
+
+div.row.plain span.label
+{
+   background-color: none;
+}
+div.row.plain span.value
+{
+   color: #000;
+}
+
+.capitalize
+{
+   text-transform: capitalize;
+}
+
+div#navigation
+{
+   background-image: url(header-background.png);
+   background-repeat: repeat-x;
+	background-position: -0px -16px;
+	margin-bottom: 16px;
+}
+
+div#navigation ul
+{
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	list-style-type: none;
+	display: inline;
+}
+
+div#navigation ul
+{
+	display: table;
+}
+
+div#navigation ul>li
+{
+	border-left: solid #333 1px;
+	display: table-cell;
+	position: relative;
+	padding: 8px;
+	border-right: solid #000 1px;
+}
+
+div#navigation ul li>ul
+{
+	display: none;
+	position: absolute;
+	max-width: 40ex;
+	margin-left: -8px;
+	margin-top: 8px;
+}
+
+div#navigation ul li:hover>ul
+{
+	display : block;
+}
+
+div#navigation ul li a
+{
+	text-decoration: none;
+}
+
+div#navigation ul li:hover, div#navigation ul li.selected
+{
+   background-image: url(header-background.png);
+   background-repeat: repeat-x;
+	background-position: -0px -5px;
+	border-top: none;
+}
+
+div#navigation ul li:active, div#navigation ul li span
+{
+   color: #eee;
+   font-weight: bold;
+	text-shadow: -2px -2px 1px #000;
+}
+
+table#repository_table
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+   clear: both;
+}
+
+table#repository_table thead tr th
+{
+	text-align: left;
+	white-space: nowrap;
+}
+
+table#repository_table th, table#repository_table td
+{
+	vertical-align: top;
+	padding: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+table#repository_table td a
+{
+	font-weight: bold;
+}
+
+table#repository_table td.first
+{
+	width: 50%;
+}
+
+table#repository_table td.last
+{
+}
+
+.nowrap
+{
+   white-space: nowrap;
+}
+
+table#repository_table tr td, table#repository_table tr td a
+{
+   color: #000;
+}
+
+table#repository_table thead tr th
+{
+   background-color: #333;
+   border: solid #222 1px;
+}
+
+table#repository_table thead tr th, table#repository_table thead tr th a
+{
+   color: #fff;
+	text-shadow: 2px 2px 1px #111;
+}
+
+table#repository_table tbody tr td
+{
+	background-color: #eeeeee;
+	border: solid #ddd 1px;
+}
+
+table#repository_table tbody tr.odd td
+{
+	background-color: #f2f2f2;
+	border: solid #ddd 1px;
+}
+
+table#repository_table tbody tr td.sorted
+{
+	background-color: #dedede;
+	border: solid #ccc 1px;
+}
+
+table#repository_table tbody tr.odd td.sorted
+{
+	background-color: #e2e2e2;
+	border: solid #ccc 1px;
+}
+
+#extra div.extra
+{
+	float: left;
+	width: 33%;
+	margin-right: 16px;
+}
+#extra div.last
+{
+	margin-right: 0px;
+}
+
+#extra ul.articles
+{
+	margin: 0 16px 0 0;
+	padding: 0;
+	line-height: 1.3em;
+	list-style: none;
+}
+#extra ul.articles li
+{
+	margin: 0;
+	padding: 0;
+}
+#extra ul.articles li a
+{
+	display: block;
+	padding: 4px 4px 4px 20px;
+	border-bottom: solid 1px #ddd;
+}
+#extra ul.articles li a
+{
+	text-decoration: none;
+}
+#extra ul.articles li a:hover
+{
+	text-decoration: none;
+	background-color: #eee;
+}
+#extra ul.articles li.last a
+{
+	border-bottom: none;
+}
+
+
+div#breadcrumbs
+{
+   text-align: left;
+   margin:0;
+   padding: 0;
+}
+
+div#breadcrumbs ul
+{
+   margin: 0px;
+   padding: 0;
+   width: auto;
+}
+
+div#breadcrumbs ul li
+{
+   display: inline;
+   margin: 0;
+   padding-left: 16px;
+   padding-right: 5px;
+}
+
+div#breadcrumbs li.first
+{
+   border-left: none;
+   background: none;
+   padding-left: 0;
+}
+
+div#breadcrumbs li.last
+{
+   border-left: none;
+   background: none;
+   padding-left: 0;
+}
+
+div#breadcrumbs
+{
+   margin-bottom: 16px;
+}
+
+div#breadcrumbs ul li
+{
+   background-image: url(breadcrumbs.png);
+   background-repeat: no-repeat;
+   background-position: 0px 0px;
+}
+
+div#breadcrumbs ul li.last
+{
+}
+
+div#layout
+{
+   float: left;
+   width: 100%;
+}
+
+div#layout_right
+{
+   margin-left: 216px;
+}
+
+div#layout_left
+{
+   float: left;
+   width: 200px;
+   margin-left: -100%;
+}
+
+div#extra
+{
+   clear: left;
+   width: 100%;
+}

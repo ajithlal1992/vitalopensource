@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<eprintsdata xmlns="http://eprints.org/ep2/data">
+  <record>
+    <field name="eprintid">1</field>
+    <field name="userid">1</field>
+    <field name="dir">disk0/00/00/00/01</field>
+    <field name="datestamp">2006-05-01</field>
+    <field name="type">book</field>
+    <field name="succeeds"></field>
+    <field name="commentary"></field>
+    <field name="replacedby"></field>
+    <field name="creators" id="jsmith@yorbalinda.edu"><part name="given">John</part><part name="family">Smith</part></field>
+    <field name="title">A Book Title</field>
+    <field name="ispublished">inpress</field>
+    <field name="subjects">F1201</field>
+    <field name="subjects">QM</field>
+    <field name="full_text_status">public</field>
+    <field name="monograph_type"></field>
+    <field name="pres_type"></field>
+    <field name="keywords">Book, Blue</field>
+    <field name="note"></field>
+    <field name="suggestions"></field>
+    <field name="abstract">This book is good. It has a blue cover and it is a good book. It is not a bad book.</field>
+    <field name="date_sub">2006</field>
+    <field name="date_issue"></field>
+    <field name="date_effective">2006</field>
+    <field name="series"></field>
+    <field name="publication"></field>
+    <field name="volume"></field>
+    <field name="number"></field>
+    <field name="publisher">MIT Press</field>
+    <field name="place_of_pub"></field>
+    <field name="pagerange"></field>
+    <field name="pages"></field>
+    <field name="event_title"></field>
+    <field name="event_location"></field>
+    <field name="event_dates"></field>
+    <field name="event_type"></field>
+    <field name="id_number"></field>
+    <field name="patent_applicant"></field>
+    <field name="institution"></field>
+    <field name="department"></field>
+    <field name="thesis_type"></field>
+    <field name="refereed">TRUE</field>
+    <field name="isbn"></field>
+    <field name="issn"></field>
+    <field name="fileinfo">coverimage;http://dossj.vtls.com/1/01/13-1280x1024.jpeg|pdf;http://dossj.vtls.com/1/02/Research_Master_development_propsal_20060214_(3).pdf</field>
+    <field name="book_title"></field>
+    <field name="official_url"></field>
+    <field name="referencetext"></field>
+  </record>
+
+  <record>
+    <field name="eprintid">2</field>
+    <field name="userid">1</field>
+    <field name="dir">disk0/00/00/00/02</field>
+    <field name="datestamp">2006-05-01</field>
+    <field name="type">book</field>
+    <field name="succeeds"></field>
+    <field name="commentary"></field>
+    <field name="replacedby"></field>
+    <field name="creators" id="jsmith@yorbalinda.edu"><part name="given">John</part><part name="family">Smith</part></field>
+    <field name="title">A Book Title</field>
+    <field name="ispublished">inpress</field>
+    <field name="subjects">F1201</field>
+    <field name="subjects">QM</field>
+    <field name="full_text_status">none</field>
+    <field name="monograph_type"></field>
+    <field name="pres_type"></field>
+    <field name="keywords">Book, Blue</field>
+    <field name="note"></field>
+    <field name="suggestions"></field>
+    <field name="abstract">This book is good. It has a blue cover and it is a good book. It is not a bad book.</field>
+    <field name="date_sub">2006</field>
+    <field name="date_issue"></field>
+    <field name="date_effective">2006</field>
+    <field name="series"></field>
+    <field name="publication"></field>
+    <field name="volume"></field>
+    <field name="number"></field>
+    <field name="publisher">MIT Press</field>
+    <field name="place_of_pub"></field>
+    <field name="pagerange"></field>
+    <field name="pages"></field>
+    <field name="event_title"></field>
+    <field name="event_location"></field>
+    <field name="event_dates"></field>
+    <field name="event_type"></field>
+    <field name="id_number"></field>
+    <field name="patent_applicant"></field>
+    <field name="institution"></field>
+    <field name="department"></field>
+    <field name="thesis_type"></field>
+    <field name="refereed">TRUE</field>
+    <field name="isbn"></field>
+    <field name="issn"></field>
+    <field name="fileinfo"></field>
+    <field name="book_title"></field>
+    <field name="official_url"></field>
+    <field name="referencetext"></field>
+  </record>
+
+</eprintsdata>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2006-09-07T11:05:01Z</responseDate>
+  <request verb="Identify">http://dossj.vtls.com:8080/fedora/oai</request>
+  <Identify>
+    <repositoryName>VITAL-Repository</repositoryName>
+    <baseURL>http://dossj.vtls.com:8080/fedora/oai</baseURL>
+    <protocolVersion>2.0</protocolVersion>
+    <adminEmail>webmaster@dossj.vtls.com</adminEmail>
+    <earliestDatestamp>2006-09-07T15:05:01Z</earliestDatestamp>
+    <deletedRecord>no</deletedRecord>
+    <granularity>YYYY-MM-DDThh:mm:ssZ</granularity>
+    <description>
+      <friends xmlns="http://www.openarchives.org/OAI/2.0/friends/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/friends/
+          http://www.openarchives.org/OAI/2.0/friends.xsd">
+        <baseURL>http://memory.loc.gov/cgi-bin/oai2_0</baseURL>
+        <baseURL></baseURL>
+        <baseURL>http://arXiv.org/oai2</baseURL>
+      </friends>
+    </description>
+    <description>
+      <oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier          http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+        <scheme>oai</scheme>
+        <repositoryIdentifier>dossj.vtls.com</repositoryIdentifier>
+        <delimiter>:</delimiter>
+        <sampleIdentifier>oai:dossj.vtls.com:vital:7654</sampleIdentifier>
+      </oai-identifier>
+    </description>
+  </Identify>
+</OAI-PMH>

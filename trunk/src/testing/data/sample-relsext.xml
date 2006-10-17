@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:myns="http://www.nsdl.org/ontologies/relationships#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="info:fedora/chaos:99">
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/chaos:16"/>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/chaos:2"/>
+    <fedora:isPartOf rdf:resource="info:fedora/chaos:12"/>
+  </rdf:Description>
+</rdf:RDF>
