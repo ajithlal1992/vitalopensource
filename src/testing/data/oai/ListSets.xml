@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2006-09-07T11:18:40Z</responseDate>
+  <request verb="ListSets">http://dossj.vtls.com:8080/fedora/oai</request>
+  <ListSets>
+    <set>
+      <setSpec>objects</setSpec>
+      <setName>Data Objects</setName>
+    </set>
+    <set>
+      <setSpec>bmechs</setSpec>
+      <setName>Behavior Mechanism Objects</setName>
+    </set>
+    <set>
+      <setSpec>bdefs</setSpec>
+      <setName>Behavior Definition Objects</setName>
+    </set>
+  </ListSets>
+</OAI-PMH>

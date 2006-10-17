@@ -1,0 +1,4 @@
+# Path to the VITAL Tomcat directory.
+# tomcat.dir = c:/apache/apache-tomcat-5.5.12
+tomcat.dir = /usr/vtls/vital/applications/fedora/server/jakarta-tomcat-5.0.28
+deploy.dir=${tomcat.dir}/webapps

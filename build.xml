@@ -1,0 +1,299 @@
+<project name="VTLS OpenSource Project" default="dist" basedir=".">
+	
+   <property file="build.properties" />	
+	<property name="version" value="0.2" />
+	<property name="app.name" value="vtls-opensource-${version}" />
+	<property name="webapp.name" value="vtls" />
+	<property name="target.version" value="1.4" />
+
+	<!-- Required. -->
+	<property name="build.dir" value="build" />
+	<property name="doc.dir" value="documentation" />
+	<property name="dist.dir" value="dist" />
+	<property name="lib.dir" value="lib" />
+	<property name="template.dir" value="template" />
+	
+	<property name="build.instrumented.dir" value="${build.dir}/instrumented-classes"/>
+	<property name="build.coverage.dir" value="${build.dir}/coverage"/>
+	
+	<!-- Set up the classpath for our Java libraries. -->
+	<path id="project_classpath">
+      <pathelement location="${build.dir}/${webapp.name}/WEB-INF/classes" />
+      <pathelement path="${java.class.path}" />
+		<fileset dir="${lib.dir}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	<!-- Targets, -->
+	<target name="all" depends="clean, build, javadoc">
+	</target>
+
+	<target name="init">
+		<mkdir dir="${build.dir}/${webapp.name}"/>
+		<mkdir dir="${build.dir}/${webapp.name}/WEB-INF"/>
+		<mkdir dir="${build.dir}/${webapp.name}/WEB-INF/classes"/>
+		<mkdir dir="${build.dir}/${webapp.name}/WEB-INF/lib"/>
+		<mkdir dir="${dist.dir}"/>
+	</target>
+
+	<target name="compile" depends="init">
+		<javac destdir="${build.dir}/${webapp.name}/WEB-INF/classes"
+			debug="on"
+			deprecation="on"
+			optimize="off"
+			source="${target.version}">
+			<src path="src"/>
+			<classpath refid="project_classpath"/>
+		</javac>
+	</target>
+
+	<target name="copy" depends="compile">
+		<copy todir="${build.dir}/${webapp.name}/WEB-INF">
+			<fileset dir="${template.dir}/WEB-INF">
+				<exclude name="classes/**"/>
+				<include name="**"/>
+			</fileset>
+			<fileset dir="${lib.dir}">
+				<include name="*.xml"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dir}/${webapp.name}">
+			<fileset dir="${template.dir}">
+				<include name="assets/**"/>
+				<include name="*.html"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dir}/${webapp.name}/WEB-INF">
+			<fileset dir="${template.dir}/WEB-INF">
+				<include name="classes/**/*.properties"/>
+			</fileset>
+			<fileset dir="${template.dir}/WEB-INF">
+				<include name="classes/**/*.xml"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dir}/${webapp.name}/WEB-INF/lib">
+			<fileset dir="${lib.dir}">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="${build.dir}/${webapp.name}/WEB-INF/classes">
+			<fileset dir="resources">
+				<include name="**"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="build"
+		depends="copy"
+		description="Build and create .war archive.">
+		<war warfile="${dist.dir}/${webapp.name}.war"
+			webxml="${build.dir}/${webapp.name}/WEB-INF/web.xml">
+			<webinf dir="${build.dir}/${webapp.name}/WEB-INF">
+				<include name="**"/>
+				<exclude name="web.xml"/>
+				<exclude name="classes/**"/>
+				<exclude name="lib/**"/>
+			</webinf>
+			<classes dir="${build.dir}/${webapp.name}/WEB-INF/classes">
+				<include name="**"/>
+			</classes>
+			<lib dir="${build.dir}/${webapp.name}/WEB-INF/lib">
+				<include name="**"/>
+			</lib>
+			<fileset dir="${build.dir}/${webapp.name}">
+				<include name="**"/>
+				<exclude name="WEB-INF/**"/>
+			</fileset>
+		</war>
+	</target>
+
+	<!-- Delete the ${build} directory trees. -->
+	<target name="clean">
+		<delete dir="${dist.dir}" />
+		<delete dir="${build.dir}" />
+		<delete dir="${doc.dir}/api" />
+	</target>
+
+	<!-- Create JavaDoc directory for our API. -->
+   <target name="javadoc" depends="compile">
+		<mkdir dir="${doc.dir}/api"/>
+		<javadoc
+			destdir="${doc.dir}/api"
+			author="true"
+			version="true"
+			use="true"
+			classpathref="project_classpath"
+			windowtitle="VTLS OpenSource API">
+
+			<fileset dir="src" defaultexcludes="yes">
+				<include name="com/vtls/**"/>
+			</fileset>
+
+			<doctitle><![CDATA[<h1>VITAL OpenSource API</h1>]]></doctitle>
+			<bottom><![CDATA[<i>Copyright &#169; 2006 VTLS Inc. All Rights Reserved.</i>]]></bottom>
+			<tag name="todo" scope="all" description="To do:"/>
+			<group title="Fedora Packages" packages="com.vtls.opensource.fedora, com.vtls.opensource.fedora.*"/>
+			<link href="http://java.sun.com/j2se/1.5.0/docs/api/"/>
+		</javadoc>
+	</target>
+
+	<target name="dist" depends="build">
+		<jar jarfile="${dist.dir}/${app.name}.jar"
+			basedir="${build.dir}/${webapp.name}/WEB-INF/classes"
+			includes="com/** org/**">
+         <fileset dir="resources"/>
+		</jar>
+	</target>
+	
+	<target name="distupdate" depends="dist">
+		<copy todir="../vital/lib">
+			<fileset dir="${dist.dir}">
+				<include name="${app.name}.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- Tomcat Targets. -->
+	<!-- There are some other rather nice Ant tasks with varying levels of configuration required. -->
+	<!-- If auto-deploy is on (as is by default) this works as advertised. -->
+	<target name="deploy" depends="build, undeploy" description="Deploy application to Tomcat server.">
+		<copy file="${dist.dir}/${webapp.name}.war" todir="${deploy.dir}"/>
+	</target>
+
+	<target name="deploy-assets" depends="init" description="Deploy presentation templates.">
+		<copy todir="${deploy.dir}/${webapp.name}">
+			<fileset dir="${template.dir}">
+				<include name="assets/**"/>
+			</fileset>
+		</copy>
+		<copy todir="${deploy.dir}/${webapp.name}/WEB-INF">
+			<fileset dir="${template.dir}/WEB-INF">
+				<include name="actions/**"/>
+				<include name="includes/**"/>
+				<include name="localization/**"/>
+				<include name="cgi/**"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="undeploy" depends="init" description="Undeploy the web application.">
+		<delete dir="${deploy.dir}/${webapp.name}"/>
+		<delete file="${deploy.dir}/${webapp.name}.war"/>
+	</target>
+
+	<!-- JUnit Testing. -->
+	<target name="compile_tests" depends="copy">
+		<javac srcdir="src/testing"
+			destdir="${build.dir}/${webapp.name}/WEB-INF/classes"
+			deprecation="on"
+			debug="true">
+			<classpath refid="project_classpath"/>
+			<include name="**/*.java"/>
+		</javac>
+	</target>
+
+	<!-- Again, there are some great, alternate Ant tasks available for JUnit. -->
+<!--
+	<target name="test" depends="compile_tests">
+		<java fork="yes" classname="junit.textui.TestRunner"
+			taskname="junit" failonerror="true">
+			<arg value="testing.com.vtls.opensource.UnitTests"/>
+			<classpath location="${build.instrumented.dir}"/>
+			<classpath refid="project_classpath"/>
+         <jvmarg value="-Dlog4j.configuration=resources/logging/log4j_debug.xml"/>
+		</java>
+	</target>
+-->
+	<target name="test" depends="compile_tests">
+      <junit errorProperty="junit.failed" failureProperty="junit.failed">
+         <sysproperty key="log4j.configuration" file="../vital/resources/logging/log4j_debug.xml"/>
+         <classpath refid="project_classpath"/>
+         <formatter type="brief" usefile="false"/>
+
+         <test name="testing.com.vtls.opensource.cql.CQLLuceneBridgeTestCase"/>
+
+         <test name="testing.com.vtls.opensource.fedora.FedoraResourceIndexTestCase"/>
+
+         <test name="testing.com.vtls.opensource.rss.RSSFeedTestCase"/>
+
+         <test name="testing.com.vtls.opensource.experimental.VelocityDVSLTestCase"/>
+         <test name="testing.com.vtls.opensource.experimental.KeywordExtractionTestCase"/>
+<!--
+         <test name="testing.com.vtls.opensource.experimental.LDAPTestCase"/>
+-->
+
+<!--
+         <test name="testing.com.vtls.opensource.security.RSAKeyPairTestCase"/>
+-->
+         <test name="testing.com.vtls.opensource.security.SHA1DigesterTestCase"/>
+
+         <test name="testing.com.vtls.opensource.text.HTMLTextSourceTestCase"/>
+         <test name="testing.com.vtls.opensource.text.PDFTextSourceTestCase"/>
+         <test name="testing.com.vtls.opensource.text.RTFTextSourceTestCase"/>
+         <test name="testing.com.vtls.opensource.text.TextSourceTestCase"/>
+         <test name="testing.com.vtls.opensource.text.WordTextSourceTestCase"/>
+         <test name="testing.com.vtls.opensource.text.TextSourceFactoryTestCase"/>
+         <test name="testing.com.vtls.opensource.text.xhtml.MicrosoftWordXHTMLSourceTestCase"/>
+
+         <test name="testing.com.vtls.opensource.vital.architecture.ArchitectureFilterTestCase"/>
+
+         <test name="testing.com.vtls.opensource.services.XFireTestCase"/>
+
+         <test name="testing.com.vtls.opensource.oai.ProviderTestCase"/>
+         <test name="testing.com.vtls.opensource.oai.HarvesterTestCase"/>
+
+         <test name="testing.com.vtls.opensource.ldap.LDAPTestCase"/>
+
+         <test name="testing.com.vtls.opensource.utilities.DateUtilitiesTestCase"/>
+
+        </junit>
+      <fail if="test.failed">Unit tests failed.</fail>
+	</target>
+	
+	<!-- jCoverage instrument. -->
+	<target name="instrument" description="Add jcoverage instrumentation" depends="compile_tests">
+		<instrument todir="build/instrumented-classes">
+			<classpath refid="project_classpath"/>
+			<fileset dir="build/vtls/WEB-INF/classes/">
+				<include name="**/**.class"/>
+			</fileset>
+		</instrument>
+	</target>
+	
+	<!-- jCoverage taskdef -->
+	<taskdef classpath="${lib.dir}/jcoverage.jar" resource="tasks.properties"/>
+	
+	<target name="coverage-html" depends="instrument,test">
+		<report srcdir="src" destdir="${build.coverage.dir}">
+			<classpath refid="project_classpath"/>
+		</report>
+	</target>
+	
+	<target name="coverage-xml" depends="instrument,test">
+		<report format="xml" srcdir="src" destdir="${build.coverage.dir}">
+			<classpath refid="project_classpath"/>
+		</report>
+	</target>
+
+   <taskdef resource="checkstyletask.properties" classpath="tools/checkstyle/lib/checkstyle-all-4.1.jar"/>
+	<target name="style" depends="compile">
+      <checkstyle config="tools/checkstyle/cleanup_checks.xml">
+        <fileset dir="src" includes="com/**/*.java"/>
+        <formatter type="plain"/>
+        <formatter type="xml" toFile="build/checkstyle.xml"/>
+      </checkstyle>
+	</target>
+	
+	<target name="working" depends="compile_tests">
+      <junit errorProperty="junit.failed" failureProperty="junit.failed" printsummary="on">
+         <sysproperty key="log4j.configuration" file="resources/logging/log4j_debug.xml"/>
+         <classpath refid="project_classpath"/>
+			<classpath location="${build.instrumented.dir}"/>
+         <formatter type="plain" usefile="false"/>
+         <test name="testing.com.vtls.opensource.image.PackageTestCase"/>
+      </junit>
+      <fail if="test.failed">Unit tests failed.</fail>
+	</target>
+
+</project>

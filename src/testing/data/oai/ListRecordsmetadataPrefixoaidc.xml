@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2006-09-07T11:16:47Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">http://dossj.vtls.com:8080/fedora/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:12</identifier>
+        <datestamp>2006-05-17T16:02:17Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for Document Transform          </dc:title>
+          <dc:identifier>demo:12          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:19</identifier>
+        <datestamp>2006-05-17T16:02:18Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for PDFs          </dc:title>
+          <dc:identifier>demo:19          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:22</identifier>
+        <datestamp>2006-05-17T16:02:19Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for FOs          </dc:title>
+          <dc:identifier>demo:22          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:Collection</identifier>
+        <datestamp>2006-05-17T16:02:19Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Collection of Objects          </dc:title>
+          <dc:identifier>demo:Collection          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:DualResImage</identifier>
+        <datestamp>2006-05-17T16:02:19Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Dual Resolution Image          </dc:title>
+          <dc:identifier>demo:DualResImage          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:27</identifier>
+        <datestamp>2006-05-17T16:02:19Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for Image Manipulation Servlet          </dc:title>
+          <dc:identifier>demo:27          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:1</identifier>
+        <datestamp>2006-05-17T16:02:19Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for UVA Simple Image Contract          </dc:title>
+          <dc:identifier>demo:1          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:13</identifier>
+        <datestamp>2006-05-25T11:19:34Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the Document Transform BDEF contract using the Fedora Local Saxon Transformation Service          </dc:title>
+          <dc:identifier>demo:13          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:20</identifier>
+        <datestamp>2006-05-17T16:02:20Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the PDF contract using the Fedora Local FOP Service          </dc:title>
+          <dc:identifier>demo:20          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:25</identifier>
+        <datestamp>2006-05-17T16:02:21Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the FO contract using the Fedora Local Saxon Service with TEI-FO stylesheets          </dc:title>
+          <dc:identifier>demo:25          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:DualResImageCollection</identifier>
+        <datestamp>2006-05-17T16:02:21Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Dual Resolution Image Collection          </dc:title>
+          <dc:identifier>demo:DualResImageCollection          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:DualResImageImpl</identifier>
+        <datestamp>2006-05-17T16:02:21Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Dual Resolution Image Implementation          </dc:title>
+          <dc:identifier>demo:DualResImageImpl          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:28</identifier>
+        <datestamp>2006-05-17T16:02:21Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the UVA Simple Image BDEF contract using the UVA MrSID Service.          </dc:title>
+          <dc:identifier>demo:28          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:2</identifier>
+        <datestamp>2006-05-17T16:02:22Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the UVA Simple Image BDEF contract using the Fedora HTTP Image Getter Service.          </dc:title>
+          <dc:identifier>demo:2          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:14</identifier>
+        <datestamp>2006-05-17T16:02:22Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Web Service Definition for the Fedora Access Service          </dc:title>
+          <dc:creator>Sandy Payette          </dc:creator>
+          <dc:subject>Fedora          </dc:subject>
+          <dc:subject>documentation          </dc:subject>
+          <dc:subject>web service          </dc:subject>
+          <dc:subject>Web Services Description Language (WSDL)          </dc:subject>
+          <dc:description>This object contains a WSDL description of the Fedora Access web service which can be viewed in two document formats.          </dc:description>
+          <dc:identifier>demo:14          </dc:identifier>
+          <dc:relation>http://www.fedora.info          </dc:relation>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:21</identifier>
+        <datestamp>2006-05-17T16:02:23Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Advanced FO Sample from Apache FOP Distribution          </dc:title>
+          <dc:creator>Apache Group          </dc:creator>
+          <dc:subject>FOP          </dc:subject>
+          <dc:subject>FO          </dc:subject>
+          <dc:subject>Apache          </dc:subject>
+          <dc:description>This object contains a .fo file from the Apache FOP distribution.          </dc:description>
+          <dc:identifier>demo:21          </dc:identifier>
+          <dc:relation>http://www.fedora.info/          </dc:relation>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:26</identifier>
+        <datestamp>2006-05-17T16:02:23Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Pipeline Tranformation Demo two          </dc:title>
+          <dc:creator>Chris Wilper          </dc:creator>
+          <dc:subject>tei          </dc:subject>
+          <dc:subject>pdf          </dc:subject>
+          <dc:description>This object contains a .tei file that is translated to PDF using a two-step process.          </dc:description>
+          <dc:identifier>demo:26          </dc:identifier>
+          <dc:relation>http://www.fedora.info/          </dc:relation>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyBeerGlass</identifier>
+        <datestamp>2006-05-17T16:02:23Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Beer Glass          </dc:title>
+          <dc:description>I guess you you drink other things out of it, but I haven&apos;t tried.          </dc:description>
+          <dc:identifier>demo:SmileyBeerGlass          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyBucket</identifier>
+        <datestamp>2006-05-17T16:02:23Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Bucket          </dc:title>
+          <dc:description>This bucket can be used for sand, flour, sugar, dirt, paint, and water.          </dc:description>
+          <dc:identifier>demo:SmileyBucket          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyDinnerware</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Dinnerware          </dc:title>
+          <dc:description>Made from 100% pure paper and plastic, this dinnerware is sure to impress your kids.          </dc:description>
+          <dc:identifier>demo:SmileyDinnerware          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyEarring</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Earring          </dc:title>
+          <dc:description>Smiling from ear to ear.          </dc:description>
+          <dc:identifier>demo:SmileyEarring          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyKeychain</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Keychain          </dc:title>
+          <dc:description>It dangles from side to side while you&apos;re driving.          </dc:description>
+          <dc:identifier>demo:SmileyKeychain          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyNightlight</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Nightlight          </dc:title>
+          <dc:description>Simple operation: push on, push off.  Very amusing for people who like to push things.          </dc:description>
+          <dc:identifier>demo:SmileyNightlight          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyPens</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Pens          </dc:title>
+          <dc:description>Yes, these actually write.  Well, I haven&apos;t tested them but I&apos;m pretty sure.          </dc:description>
+          <dc:identifier>demo:SmileyPens          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyShortRoundCup</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Short Round Cup          </dc:title>
+          <dc:description>It&apos;s round.  It&apos;s a cup.  It&apos;s amazing!          </dc:description>
+          <dc:identifier>demo:SmileyShortRoundCup          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyStuff</identifier>
+        <datestamp>2006-05-17T16:02:24Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Collection of Smiley Stuff          </dc:title>
+          <dc:description>This is Deb&apos;s collection of smiley stuff.          </dc:description>
+          <dc:identifier>demo:SmileyStuff          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyTallRoundCup</identifier>
+        <datestamp>2006-05-17T16:02:25Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Tall Round Cup          </dc:title>
+          <dc:description>This cup measures ten inches high (when standing).  When it&apos;s on it&apos;s side, it measures ten inches wide.          </dc:description>
+          <dc:identifier>demo:SmileyTallRoundCup          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyToiletBrush</identifier>
+        <datestamp>2006-05-17T16:02:25Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Toilet Brush          </dc:title>
+          <dc:description>At least one of you will be smiling while you put this item to use.          </dc:description>
+          <dc:identifier>demo:SmileyToiletBrush          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:SmileyWastebasket</identifier>
+        <datestamp>2006-05-17T16:02:25Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Smiley Wastebasket          </dc:title>
+          <dc:description>You can throw your trash in this.  Don&apos;t forget to recycle!          </dc:description>
+          <dc:identifier>demo:SmileyWastebasket          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:29</identifier>
+        <datestamp>2006-05-17T16:02:25Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Coliseum in Rome          </dc:title>
+          <dc:creator>Thornton Staples          </dc:creator>
+          <dc:subject>Architecture, Roman          </dc:subject>
+          <dc:description>Image of Coliseum in Rome          </dc:description>
+          <dc:publisher>University of Virginia Library          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:29          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:18</identifier>
+        <datestamp>2006-05-17T16:02:25Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Mellon Fedora Project: Digital Library Architecture Meets XML and Web Services          </dc:title>
+          <dc:creator>Sandra Payette          </dc:creator>
+          <dc:creator>Thornton Staples          </dc:creator>
+          <dc:subject>Fedora          </dc:subject>
+          <dc:subject>repository architecture          </dc:subject>
+          <dc:subject>digital libraries          </dc:subject>
+          <dc:subject>web service          </dc:subject>
+          <dc:subject>open source software          </dc:subject>
+          <dc:description>Paper on the Fedora project, presented at the European Digital Library Conference (ECDL) in 2002, Rome, Italy          </dc:description>
+          <dc:publisher>Springer          </dc:publisher>
+          <dc:date>2002-09-17          </dc:date>
+          <dc:format>application/pdf          </dc:format>
+          <dc:format>application/msword          </dc:format>
+          <dc:format>application/ps          </dc:format>
+          <dc:identifier>demo:18          </dc:identifier>
+          <dc:relation>http://www.fedora.info          </dc:relation>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:31</identifier>
+        <datestamp>2006-05-18T13:36:53Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Apache Batik 1.5 Demo Directory          </dc:title>
+          <dc:creator>Chris Wilper          </dc:creator>
+          <dc:creator>The Apache Group          </dc:creator>
+          <dc:subject>svg          </dc:subject>
+          <dc:subject>batik          </dc:subject>
+          <dc:subject>apache          </dc:subject>
+          <dc:description>Demonstration digital object containing SVG demos from the Batik 1.5 distribution          </dc:description>
+          <dc:publisher>The Apache Group          </dc:publisher>
+          <dc:format>image/svg+xml          </dc:format>
+          <dc:identifier>demo:31          </dc:identifier>
+          <dc:relation>http://xml.apache.org/batik/          </dc:relation>
+          <dc:rights>The Apache License          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:5</identifier>
+        <datestamp>2006-05-17T16:02:26Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Coliseum in Rome          </dc:title>
+          <dc:creator>Thornton Staples          </dc:creator>
+          <dc:subject>Architecture, Roman          </dc:subject>
+          <dc:description>Image of Coliseum in Rome          </dc:description>
+          <dc:publisher>University of Virginia Library          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:5          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:15</identifier>
+        <datestamp>2006-05-17T16:02:31Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for UVA Standard EAD Finding Aid Contract          </dc:title>
+          <dc:identifier>demo:15          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:8</identifier>
+        <datestamp>2006-05-17T16:02:31Z</datestamp>
+        <setSpec>bdefs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Definition Object for UserInput Image Contract          </dc:title>
+          <dc:identifier>demo:8          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:16</identifier>
+        <datestamp>2006-05-17T16:02:31Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object for EAD-encoded Finding Aid Service implementing EAD-encoded Finding Aid BDEF contract.          </dc:title>
+          <dc:identifier>demo:16          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:3</identifier>
+        <datestamp>2006-05-17T16:02:31Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the Simple Image BDEF contract using the UVA ImageZoomer Service.          </dc:title>
+          <dc:identifier>demo:3          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:4</identifier>
+        <datestamp>2006-09-07T13:37:33Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the UVA Simple Image BDEF contract using the UVA MrSID Service.          </dc:title>
+          <dc:identifier>demo:4          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:9</identifier>
+        <datestamp>2006-05-17T16:02:32Z</datestamp>
+        <setSpec>bmechs</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Behavior Mechanism Object implementing the UserInput Image BDEF contract using the UVA MrSID Service.          </dc:title>
+          <dc:identifier>demo:9          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:17</identifier>
+        <datestamp>2006-05-17T16:02:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>A Guide to the Papers of Rita Mae Brown, 1929-2001          </dc:title>
+          <dc:creator>University of Virginia. Library. Special Collections Dept.          </dc:creator>
+          <dc:subject>Brown, Rita Mae          </dc:subject>
+          <dc:subject>Authors, American -- 20th century          </dc:subject>
+          <dc:description>This collection comprises the papers of writer Rita Mae Brown (1944-), of Nelson County, Virginia, ca. 31,550 items 
+							(188 Hollinger boxes, 78 linear feet), ca. 1929-2001, and undated, and includes manuscripts of her novels and other books, poetry, 
+							articles, mysteries, book reviews, screenplays and teleplays; fan mail, personal, family and professional correspondence; calendar 
+							diaries, personal journals, photographs, and memorabilia items; legal papers; and other miscellaneous subject files, reflecting her 
+							interest in her farm, polo, film, foxhunting, feminist and gay rights issues, and her school and college years.
+						          </dc:description>
+          <dc:publisher>University of Virginia. Library. Special Collections Dept.          </dc:publisher>
+          <dc:identifier>demo:17          </dc:identifier>
+          <dc:source>viu03270          </dc:source>
+          <dc:rights>copyright, 2003, The Rector and Visitors of the University of Virginia, unrestricted          </dc:rights>
+          <dc:rights>usage unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:30</identifier>
+        <datestamp>2006-05-17T16:02:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Architectural Image of Drawing of Pavilion III, University of Virginia          </dc:title>
+          <dc:creator>Thomas Jefferson          </dc:creator>
+          <dc:subject>Pavilion III          </dc:subject>
+          <dc:subject>lawn          </dc:subject>
+          <dc:subject>University of Virginia          </dc:subject>
+          <dc:subject>Jefferson          </dc:subject>
+          <dc:subject>Jeffersonian architecture          </dc:subject>
+          <dc:description>Image of architectural drawing of Pavillion III on the lawn at University of Virginia          </dc:description>
+          <dc:publisher>IVA          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:30          </dc:identifier>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:6</identifier>
+        <datestamp>2006-05-17T16:02:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Pavilion III, University of Virginia          </dc:title>
+          <dc:creator>Thomas Jefferson          </dc:creator>
+          <dc:subject>Pavilion III          </dc:subject>
+          <dc:subject>lawn          </dc:subject>
+          <dc:subject>University of Virginia          </dc:subject>
+          <dc:subject>Jefferson          </dc:subject>
+          <dc:subject>Jeffersonian architecture          </dc:subject>
+          <dc:description>Black and white image of Pavillion III on the lawn at University of Virginia          </dc:description>
+          <dc:publisher>IVA          </dc:publisher>
+          <dc:format>image/x-mrsid-image          </dc:format>
+          <dc:identifier>demo:6          </dc:identifier>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:7</identifier>
+        <datestamp>2006-08-30T19:12:27Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Architectural Image of Pavilion III, University of Virginia          </dc:title>
+          <dc:creator>Thomas Jefferson          </dc:creator>
+          <dc:subject>Pavilion III          </dc:subject>
+          <dc:subject>lawn          </dc:subject>
+          <dc:subject>University of Virginia          </dc:subject>
+          <dc:subject>Jefferson          </dc:subject>
+          <dc:subject>Jeffersonian architecture          </dc:subject>
+          <dc:description>Image of architectural drawing of Pavillion III on the lawn at University of Virginia          </dc:description>
+          <dc:publisher>IVA          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:7          </dc:identifier>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:10</identifier>
+        <datestamp>2006-05-17T16:02:33Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Column Detail, Pavilion III, University of Virginia          </dc:title>
+          <dc:creator>Thomas Jefferson          </dc:creator>
+          <dc:subject>Pavilion III          </dc:subject>
+          <dc:subject>lawn          </dc:subject>
+          <dc:subject>University of Virginia          </dc:subject>
+          <dc:subject>Jefferson          </dc:subject>
+          <dc:subject>Jeffersonian architecture          </dc:subject>
+          <dc:description>Image of column detail of Pavillion III on the lawn at University of Virginia          </dc:description>
+          <dc:publisher>IVA          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:10          </dc:identifier>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:demo:11</identifier>
+        <datestamp>2006-05-17T16:02:33Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Exhibit Intro: Architectural drawings, Pavilion III, University of Virginia          </dc:title>
+          <dc:creator>Thomas Jefferson          </dc:creator>
+          <dc:subject>Pavilion III          </dc:subject>
+          <dc:subject>lawn          </dc:subject>
+          <dc:subject>University of Virginia          </dc:subject>
+          <dc:subject>Jefferson          </dc:subject>
+          <dc:subject>Jeffersonian architecture          </dc:subject>
+          <dc:description>Exhibition Introduction Image for the collection of architectural drawings of Pavillion III on the lawn at University of Virginia          </dc:description>
+          <dc:publisher>IVA          </dc:publisher>
+          <dc:format>image/jpeg          </dc:format>
+          <dc:identifier>demo:11          </dc:identifier>
+          <dc:rights>unrestricted          </dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:1</identifier>
+        <datestamp>2006-08-30T20:20:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Object - edited by IE          </dc:title>
+          <dc:creator>Chris Hall          </dc:creator>
+          <dc:description>This object is a test bed for demonstrating what can be edited.  This DC record was editing via the Datastream View.          </dc:description>
+          <dc:identifier>vital:1          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:2</identifier>
+        <datestamp>2006-06-06T13:06:30Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Acta Orientalia.          </dc:title>
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:2          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:3</identifier>
+        <datestamp>2006-06-06T13:06:31Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:3          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:4</identifier>
+        <datestamp>2006-06-06T13:06:31Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:4          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:5</identifier>
+        <datestamp>2006-06-06T13:06:31Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:5          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:6</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:6          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:7</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>NIAS review.          </dc:title>
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:7          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:8</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:8          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:9</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>University of California publications in classical philology.          </dc:title>
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:9          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:10</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Classical philology.          </dc:title>
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:10          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:11</identifier>
+        <datestamp>2006-06-06T13:06:32Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:type>Printed material          </dc:type>
+          <dc:identifier>vital:11          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:12</identifier>
+        <datestamp>2006-06-06T13:06:34Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Delivering service quality in call centres          </dc:title>
+          <dc:creator>Dean, Alison Mary,1950-          </dc:creator>
+          <dc:subject>Call centers          </dc:subject>
+          <dc:subject>Customer services.          </dc:subject>
+          <dc:subject>Customer loyalty.          </dc:subject>
+          <dc:description>Submitted in fulfilment of the requirements for the degree of Doctor of Philosophy, Dept. of Management.          </dc:description>
+          <dc:description>Summary: leaves ix-x.          </dc:description>
+          <dc:description>Includes appendices.          </dc:description>
+          <dc:description>Includes tables.          </dc:description>
+          <dc:description>Candidate was enrolled at Caulfield, graduated at Gippsland, requested the thesis to be located at Gippsland campus.          </dc:description>
+          <dc:type>Manuscript          </dc:type>
+          <dc:identifier>vital:12          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:13</identifier>
+        <datestamp>2006-06-06T13:06:34Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Neither too fitted nor foreign          </dc:title>
+          <dc:creator>Henson, Leslie,1949-          </dc:creator>
+          <dc:subject>Theology, Doctrinal          </dc:subject>
+          <dc:subject>Missions          </dc:subject>
+          <dc:description>Submitted in fulfilment of the requirements for the degree of Doctor of Philosophy, School of Political and Social Inquiry.          </dc:description>
+          <dc:description>Summary: p. ix.          </dc:description>
+          <dc:type>Manuscript          </dc:type>
+          <dc:identifier>vital:13          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:14</identifier>
+        <datestamp>2006-06-06T13:06:35Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Efficient computational approach to identifying overlapping documents in large digital collections          </dc:title>
+          <dc:creator>Monostori, Krisztian,1975-          </dc:creator>
+          <dc:subject>Computer access control equipment industry.          </dc:subject>
+          <dc:subject>Data structures (Computer science)          </dc:subject>
+          <dc:subject>Data mining.          </dc:subject>
+          <dc:subject>Combinatorial analysis          </dc:subject>
+          <dc:subject>Computer algorithms.          </dc:subject>
+          <dc:subject>Computer network resources.          </dc:subject>
+          <dc:description>Submitted in fulfilment of the requirements for the degree of Doctor of Philosophy, School of Computer Science and Software Engineering (Caulfield).          </dc:description>
+          <dc:description>Summary: p. 7-8.          </dc:description>
+          <dc:type>Manuscript          </dc:type>
+          <dc:identifier>vital:14          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:15</identifier>
+        <datestamp>2006-06-06T13:06:36Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Hail to the Thief          </dc:title>
+          <dc:creator>Radiohead          </dc:creator>
+          <dc:subject>Rock          </dc:subject>
+          <dc:identifier>vital:15          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:16</identifier>
+        <datestamp>2006-06-06T13:06:37Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Gram Parsons Anthology (Disc 1)          </dc:title>
+          <dc:creator>Parsons, Gram          </dc:creator>
+          <dc:subject>Folk-RockRock &amp; Roll          </dc:subject>
+          <dc:identifier>vital:16          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:17</identifier>
+        <datestamp>2006-06-06T13:06:37Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Gram Parsons Anthology (Disc 2)          </dc:title>
+          <dc:creator>Parsons, Gram          </dc:creator>
+          <dc:subject>Folk-RockRock &amp; Roll          </dc:subject>
+          <dc:identifier>vital:17          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:18</identifier>
+        <datestamp>2006-06-06T13:06:38Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Kid A          </dc:title>
+          <dc:creator>Radiohead          </dc:creator>
+          <dc:subject>Brit PopExperimental          </dc:subject>
+          <dc:description>Recording directed by: Nigel Godrich with Radiohead. Assistant to the Directors: Gerard Navarro. Gaffer: Plank. Engineered &amp; Mixed by Nigel Godrich. Additional Engineering: Gerard Navarro &amp; Graeme Stewart. Written by Radiohead. Landscapes, Knives and Glue: Stanley &amp; Tchock. The Orchestra of St. Johns Conducted by John Lubbock and Scored by Jonny Greenwood. Hook Horns blown for The National Anthem: Andy Bush [Trumpet] Steve Hamilton [Alto] Martin Hathaway [Alto] Andy Hamilton [Tenor] Mark Lockheart [Tenor] Stan Harrison [Baritone] Liam Kerkman [Trombone] Mike Kearsey [Bass Trombone] Rhythm Sampling by Henry Binns. Mastered by Chris Blair at Abbey Road Studios. W.A.S.T.E. Letters: P.O.Box 322, Oxford, OX4 1EY, UK. radiohead.com is for use with a computer. The font we wrote the word &apos;Radiohead&apos; in is made by Buro Bestruct, Berne, Switzerland. www.bermuda.ch/burodestruct The track &apos;Idioteque&apos; contains two samples from the Oddyssey label title &apos;First Recordings-Electronic Music Winners&apos; (1976). The two compositions sampled are Paul Lansky&apos;s &apos;Mild und Liese&apos; published by Grim Tim Music and &apos;Short Piece&apos; by Arthur Krieger published by The Subito Music Corporation. Both samples are used with the kind permission of the composers and The Sony Music Corporation. 2000 The copyright in this sound recording is owned by EMI Records Ltd. 2000 EMI Records Ltd. manufactured by Capitol Records, Inc. Printed in U.S.A. All tracks published by Warner Chappell Music Publishing Ltd. Dedicated to Leo.          </dc:description>
+          <dc:identifier>vital:18          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:19</identifier>
+        <datestamp>2006-06-06T13:06:39Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Control          </dc:title>
+          <dc:creator>Pedro The Lion          </dc:creator>
+          <dc:subject>General Rock          </dc:subject>
+          <dc:identifier>vital:19          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:20</identifier>
+        <datestamp>2006-06-06T13:06:40Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Urban Hymns          </dc:title>
+          <dc:creator>Verve, The          </dc:creator>
+          <dc:subject>Brit Pop          </dc:subject>
+          <dc:description>Not long after the release of A Northern Soul, the Verve imploded due to friction between vocalist Richard Ashcroft and guitarist Nick McCabe. It looked like the band had ended before reaching its full potential, which is part of the reason why their third album, Urban Hymns - recorded after the pair patched things up in late 1996 - is so remarkable. Much of the record consists of songs Ashcroft had intended for a solo project or a new group, yet Urban Hymns unmistakably sounds like the work of a full band, with its sweeping, grandiose soundscapes and sense of purpose. The Verve have toned down their trancy, psychedelic excursions, yet haven&apos;t abandoned them - if anything, they sound more muscular than before, whether it&apos;s the trippy &quot;Catching the Butterfly&quot; or the pounding &quot;Come On.&quot; These powerful, guitar-drenched rockers provide the context for Ashcroft&apos;s affecting, string-laden ballads, which give Urban Hymns its hurt. The majestic &quot;Bitter Sweet Symphony&quot; and the heartbreaking, country-tinged &quot;The Drugs Don&apos;t Work&quot; are an astonishing pair, two anthemic ballads that make the personal universal, thereby sounding like instant classics. They just are the tip of the iceberg - &quot;Sonnet&quot; is a lovely, surprisingly understated ballad, &quot;The Rolling People&quot; has a measured, electric power, and many others match their quality. Although it may run a bit too long for some tastes, Urban Hymns is a rich album that revitalizes rock traditions without ever seeming less than contemporary. It is the album the Verve have been striving to make since their formation, and it turns out to be worth all the wait.          </dc:description>
+          <dc:identifier>vital:20          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:21</identifier>
+        <datestamp>2006-06-06T13:06:40Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Run To Ruin          </dc:title>
+          <dc:creator>Nastasia, Nina          </dc:creator>
+          <dc:subject>Alt-Folk          </dc:subject>
+          <dc:identifier>vital:21          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:22</identifier>
+        <datestamp>2006-06-06T13:06:40Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Complete Works, Vol. 1          </dc:title>
+          <dc:creator>Spiritualized          </dc:creator>
+          <dc:subject>Ambient/Dream Pop          </dc:subject>
+          <dc:identifier>vital:22          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:23</identifier>
+        <datestamp>2006-06-06T13:06:40Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>OK Computer          </dc:title>
+          <dc:creator>Radiohead          </dc:creator>
+          <dc:subject>          </dc:subject>
+          <dc:identifier>vital:23          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:24</identifier>
+        <datestamp>2006-06-06T13:06:41Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Gram Parsons Anthology (Disc 1)          </dc:title>
+          <dc:creator>Parsons, Gram          </dc:creator>
+          <dc:subject>Folk-RockRock &amp; Roll          </dc:subject>
+          <dc:identifier>vital:24          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:25</identifier>
+        <datestamp>2006-06-06T13:06:41Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Gram Parsons Anthology (Disc 2)          </dc:title>
+          <dc:creator>Parsons, Gram          </dc:creator>
+          <dc:subject>Folk-RockRock &amp; Roll          </dc:subject>
+          <dc:identifier>vital:25          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:26</identifier>
+        <datestamp>2006-06-06T13:06:42Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Control          </dc:title>
+          <dc:creator>Pedro The Lion          </dc:creator>
+          <dc:subject>General Rock          </dc:subject>
+          <dc:identifier>vital:26          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:27</identifier>
+        <datestamp>2006-06-06T13:06:42Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Run To Ruin          </dc:title>
+          <dc:creator>Nastasia, Nina          </dc:creator>
+          <dc:subject>Alt-Folk          </dc:subject>
+          <dc:identifier>vital:27          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:28</identifier>
+        <datestamp>2006-06-06T13:06:42Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The Complete Works, Vol. 1          </dc:title>
+          <dc:creator>Spiritualized          </dc:creator>
+          <dc:subject>Ambient/Dream Pop          </dc:subject>
+          <dc:identifier>vital:28          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:29</identifier>
+        <datestamp>2006-06-06T13:06:46Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>http://members.optusnet.com.au/bilbies/images/c_bilbies_at_night_5.JPG          </dc:title>
+          <dc:identifier>vital:29          </dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:30</identifier>
+        <datestamp>2006-06-06T13:06:53Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>469952x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>hvc subscribes to series 1 only          </dc:description>
+          <dc:identifier>vital:30          </dc:identifier>
+          <dc:coverage>2/1/2006          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:31</identifier>
+        <datestamp>2006-06-06T13:06:53Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:31          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:32</identifier>
+        <datestamp>2006-06-06T13:06:53Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4367169          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:32          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:33</identifier>
+        <datestamp>2006-06-06T13:06:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4732005          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paid to Fordham University          </dc:description>
+          <dc:identifier>vital:33          </dc:identifier>
+          <dc:coverage>7/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:34</identifier>
+        <datestamp>2006-06-06T13:06:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4578235          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Palci-brokered deal for 2002, but we pay ACS directly.  Reverse Option B, also known as ROB; we pay for Online access with print as a 15% add-on. (bjw, 6/02)Much confusion regarding what we really owed for 2002; took several months to get a correct invoice.-bjw 9/02          </dc:description>
+          <dc:identifier>vital:34          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:35</identifier>
+        <datestamp>2006-06-06T13:06:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>o5013100          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>$2,550 is 2004 annual fee for the journal archives.          </dc:description>
+          <dc:identifier>vital:35          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:36</identifier>
+        <datestamp>2006-06-06T13:06:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4957659          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:36          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:37</identifier>
+        <datestamp>2006-06-06T13:06:54Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>244950x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Tri-Co deal; bmc pays and bills back hvc &amp; swc one-third          </dc:description>
+          <dc:identifier>vital:37          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:38</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4101195          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:38          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:39</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1610806          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:39          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:40</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2611570          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Swarthmore bills Bryn Mawr for half.          </dc:description>
+          <dc:identifier>vital:40          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:41</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>5050649          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Annual access fee waived until Jan. 05 because we also subscribe to Amico          </dc:description>
+          <dc:identifier>vital:41          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:42</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1300052          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Price includes Full-Text (not broken out into database and fulltext)-bjw 7/8/02          </dc:description>
+          <dc:identifier>vital:42          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:43</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>o4843800          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:43          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:44</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:44          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:45</identifier>
+        <datestamp>2006-06-06T13:06:55Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4742746          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Prepaid  $375 on Palinet estimated invoice, but amount in Tripod is $378.12 (mistake)-bjw          </dc:description>
+          <dc:identifier>vital:45          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:46</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4827296          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Tri-Co dealpayt on 4/4/02 for 1946-1997 backfile          </dc:description>
+          <dc:identifier>vital:46          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:47</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4782070          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paid a $300 &apos;conversion fee&apos; to add web access.  Previously paid for CD-Rom African American Newspapers ($2985 in 7/00).  Acc. Archives says we are behind on updates of Afr. Am. Newspapers-9/02          </dc:description>
+          <dc:identifier>vital:47          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:48</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2249042          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:48          </dc:identifier>
+          <dc:coverage>6/10/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:49</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:49          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:50</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2198277          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paying 90% of list price for 2002 &amp; 2003          </dc:description>
+          <dc:identifier>vital:50          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:51</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:51          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:52</identifier>
+        <datestamp>2006-06-06T13:06:56Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:52          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:53</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:53          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:54</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:54          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:55</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:55          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <resumptionToken expirationDate="2006-09-07T15:25:07Z" cursor="0">32046a51fe0117afcb101dfa825c576a</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

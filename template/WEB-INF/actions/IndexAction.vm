@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>$m_locale.Application</title>
+<style type="text/css">
+<!--
+body
+{
+	background-color: #000;
+	margin:0;
+	font:88%/140% "Helvetica Neue", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.debugging
+{
+   background-color: #fee;
+   border: solid red 5px;
+   padding: 16px;
+   margin: 32px;
+}
+
+div.debugging table tbody td.first
+{
+   width: 128px;
+   color: #877;
+}
+//-->
+</style>
+</head>
+
+<body>
+<a href="$m_request_link.changePage("/Index")"><img src="$m_assets/1.png" border="0" alt="$m_locale.Application"/></a>
+</body>
+
+#if($toolbox_parameters.debug == "on" || $m_debug == "on")
+#parse("WEB-INF/includes/Debugging.vm")
+#end
+
+</html>

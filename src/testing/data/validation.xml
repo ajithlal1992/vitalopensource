@@ -1,0 +1,25 @@
+<form-validation>
+   <global>
+       <validator name="required"
+          classname="com.vtls.opensource.validation.Validator"
+          method="validateRequired"
+          methodParams="java.lang.Object, org.apache.commons.validator.Field"
+          msg="This field is required."/>
+
+       <validator name="email"
+          classname="com.vtls.opensource.validation.Validator"
+          method="validateEmail"
+          methodParams="java.lang.Object, org.apache.commons.validator.Field"
+          msg="The email address is invalid."/>
+    </global>
+    <formset>
+       <form name="testForm">
+          <field property="name" depends="required">
+              <arg0 key="Username"/>
+          </field>
+           <field property="email" depends="email">
+               <arg0 key="Email Address"/>
+           </field>
+       </form>
+    </formset>
+</form-validation> 

@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<!--<?xml-stylesheet type="text/xsl" href="ead.xsl"?>-->
+<ead relatedencoding="MARC21">
+  <eadheader audience="internal" findaidstatus="edited-full-draft" id="a0" langencoding="ISO 639-2">
+    <eadid encodinganalog="850" source="DLC" systemid="MnCCHi" type="file">2468</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>William Fonds Provenance</titleproper>
+        <subtitle>An Inventory of His Papers at the Cupcake Corners Historical Society</subtitle>
+        <author>Inventory prepared by B.W. Moos</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>CUPCAKE CORNERS HISTORICAL SOCIETY</publisher>
+        <address>
+          <addressline>Frostbite Falls, MN 55999</addressline>
+        </address>
+        <date>February, 2000</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Finding aid encoded by Roger Nelson 
+
+        
+        
+        
+        
+        
+        
+        <date>January 1, 2000</date>
+      </creation>
+      <langusage>Finding aid written in
+        
+        
+        
+        
+        
+        
+        <language>English.</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc langmaterial="eng" level="collection" type="inventory">
+    <did id="a1">
+      <head>Collection Summary</head>
+      <repository encodinganalog="852" label="Repository">
+        <corpname encodinganalog="852$a">Cupcake Corners Historical Society</corpname>
+      </repository>
+      <origination label="Creator:">
+        <persname encodinganalog="100">Provenance, William Fonds, 1897-1956</persname>
+      </origination>
+      <unittitle encodinganalog="245$a" label="Title:">
+Papers of William Fonds Provenance 
+
+        
+        
+        
+        
+        
+        
+        <unitdate encodinganalog="245$f" label="Dates:" type="inclusive">
+1917-1955</unitdate>
+      </unittitle>
+      <physdesc encodinganalog="300$a" label="Quantity:">1.6 cubic feet (4 boxes)</physdesc>
+      <abstract encodinganalog="520$a" label="Abstract:">
+Correspondence, diaries,and writings of an archival theorist and author documenting his experiences in World War I, his literary endeavors, and his ideas on modern archival theory, especially regarding the centrality of the fonds. </abstract>
+      <unitid encodinganalog="099" label="Identification:">Mss 2 A</unitid>
+    </did>
+    <bioghist encodinganalog="545" id="a2">
+      <head>Biography of William Provenance</head>
+      <p>Archivist and author William Fonds Provenance was born at Last Chance, Nevada to Fred and Mary Jones Provenance on January 4, 1897. Little is know of his early life prior to serving in World War I as an ambulance driver. After graduating from Freen College in 1924 with a degree in cryptogamic biology, he first followed a career in commercial horticulture and later worked as an itinerant archivist. Provenance also had a lifelong interest in creative writing, producing both novels and poetry. He died at Frostbite Falls, Minnesota, March 15, 1956. </p>
+    </bioghist>
+    <scopecontent encodinganalog="520" id="a3">
+      <head>Scope and Contents of the Papers</head>
+      <p>The collection consists of diaries, correspondence, manuscripts, and miscellaneous materials documenting the literary and archival career of William Fonds Provenance.</p>
+      <p>The bulk of the collection consists of 
+
+        
+        
+        
+        
+        
+        
+        <ref target="series1">correspondence,
+ principally with his mother, other archivists and writers. His 
+        </ref>
+        <ref target="series2">diaries
+ describe his experiences as an ambulance driver in France during World Was I in vivid detail. It also includes manuscripts of 
+        </ref>
+        <ref target="series3">novels, poetry, and essays
+ on archival theory as well as the final draft of his seminal work, 
+        </ref>
+        <title render="italic">Quarks: The Tao of Archival Descripton.
+ Many of Provenance's ideas about archival description were thought by his contemporaries to have been obscure or naive. A contemporary reexamination of his theories, however, reveals that in many respects Provenance's ideas were insightful and highly nuanced.        </title>
+      </p>
+      <p>Major correspondents represented in the collection include Ernest Hemingway, F. Scott Fitzgerald, Arthur Miller, H.L. Mencken, Theodore Schellenberg, Ernst Posner, and Provenance's long-time companion Ima Gusdorf.</p>
+    </scopecontent>
+    <organization encodinganalog="351$a" id="a4">
+      <head>Organization of the Papers</head>
+      <p>This collection is organized into three sections:</p>
+      <list>
+        <item>Correspondence</item>
+        <item>Diaries</item>
+        <item>Novels, Poetry, and Essays</item>
+      </list>
+    </organization>
+    <add>
+      <relatedmaterial encodinganalog="544 1" id="a6">
+        <head>Related records</head>
+        <p>The papers of Ima Gusdorf are located in the Freen University archives. </p>
+      </relatedmaterial>
+    </add>
+    <add>
+      <separatedmaterial encodinganalog="544 0" id="a7">
+        <head>Separated materials</head>
+        <p>The James Joyce Collection at the Harry Ransom Humanities Research Center, University of Texas-Austin, contains correspondence from Provenance to various French literary publications regarding Joyce.</p>
+      </separatedmaterial>
+    </add>
+    <add>
+      <otherfindaid encodinganalog="555" id="a8">
+        <head>Other Finding Aids</head>
+        <p>A partial index to Fond's correspondence, prepared by Ima Gusdorf, is available at the Cupcakes Corners Historical Society.</p>
+      </otherfindaid>
+    </add>
+    <controlaccess id="a12">
+      <head>Index Terms</head>
+      <p>This collection is indexed under the following headings in the catalog of the Cupcake Corners Historical Society. Researchers desiring materials about related topics, persons or places should search the catalog using these headings.</p>
+      <controlaccess>
+        <head>Persons:</head>
+        <persname encodinganalog="700">
+Fitzgerald, F. Scott (Francis Scott), 1896-1940</persname>
+        <persname encodinganalog="600" source="lcnaf">
+Fruin, Robert, 1857-1935</persname>
+        <persname encodinganalog="700" source="lcnaf">
+Posner, Ernst</persname>
+        <persname encodinganalog="700">
+Gusdorf, Ima May </persname>
+        <persname encodinganalog="700" source="lcnaf">
+Hemingway, Ernest, 1899-1961</persname>
+        <persname encodinganalog="700" source="lcnaf">
+Mencken, H.L. (Henry  Louis), 1880-1956</persname>
+        <persname encodinganalog="700" source="lcnaf">
+Miller, Arthur, 1915-</persname>
+        <persname encodinganalog="600" source="lcnaf">
+Schellenberg, T.R. (Theodore R.), 1903-1970</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Organizations:</head>
+        <corpname encodinganalog="610" source="lcnaf">
+Freen University. Center for the Study of the Giants of Archivy</corpname>
+        <corpname encodinganalog="610" source="lcsh">
+United States. Army--Transport of sick and wounded.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject encodinganalog="650" source="lcsh">
+Cataloging of archival  materials</subject>
+        <subject encodinganalog="650" source="lcsh">
+Diplomatics</subject>
+        <subject encodinganalog="650" source="lcsh">
+United States -- History -- World War, 1914-1918 -- Personal narratives, American</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Places:</head>
+        <geogname encodinganalog="651" source="lcnaf">
+Frostbite Falls, Minnesota</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Document Types:</head>
+        <genreform encodinganalog="655" source="aat">
+Diaries</genreform>
+        <genreform encodinganalog="655" source="aat">
+Novels</genreform>
+        <genreform encodinganalog="655" source="aat">
+Poetry</genreform>
+      </controlaccess>
+      <controlaccess>
+        <head>Titles:</head>
+        <title encodinganalog="730" render="italic">
+Quarks: The Tao of Archival Descripton </title>
+      </controlaccess>
+    </controlaccess>
+    <admininfo>
+      <accessrestrict encodinganalog="506" id="a14">
+        <head>Restrictions on Access</head>
+        <p>This collection is housed in off-site storage. Twenty-fours advance notice is required prior to research use.</p>
+      </accessrestrict>
+    </admininfo>
+    <admininfo>
+      <userestrict encodinganalog="540" id="a15">
+        <head>Restrictions on Use</head>
+        <p>Permission for publication is given on behalf of the Cupcake Corners Historical Society as the owner of the collection and is not intended to include or imply permission of the copyright holder which must be obtained by the researcher.</p>
+      </userestrict>
+    </admininfo>
+    <admininfo>
+      <custodhist encodinganalog="561" id="a16">
+        <head>Custodial History</head>
+        <p>Following his death, Provenance's papers were bequeathed to his brother Harry who attempted several times unsuccessfully to sell them to a private collector. Upon Harry's death, the papers became the property of Provenance's literary executrix and longtime companion Ima Gusdorf who donated them to the Freen University Center for the Study of the Giants of Archivy.</p>
+      </custodhist>
+    </admininfo>
+    <admininfo>
+      <prefercite encodinganalog="524" id="a18">
+        <head>Preferred Citation</head>
+        <p>Cite as: Cupcake Corners Historical Society, Frostbite Falls, Minnesota. William Fonds Provenance Papers. Mss. 2 A.</p>
+      </prefercite>
+    </admininfo>
+    <admininfo>
+      <acqinfo encodinganalog="541" id="a19">
+        <head>Acquisition Information</head>
+        <p>Acquired as a gift from Ima Gusdorf, December 17, 1952</p>
+      </acqinfo>
+    </admininfo>
+    <admininfo>
+      <processinfo encodinganalog="583" id="a20">
+        <head>Processing Information</head>
+        <p>Collection processed and cataloged by B.W. Moos, January, 1962. </p>
+      </processinfo>
+    </admininfo>
+    <dsc id="a23" type="combined">
+      <head>Detailed Descripton of the Collection</head>
+      <p>The following section contains a detailed listing of the materials in the collection. </p>
+      <c01 id="series1" level="series">
+        <did>
+          <unittitle>Correspondence, 
+
+            
+            
+            
+            
+            
+            
+            <unitdate type="inclusive">1919-1955.</unitdate>
+          </unittitle>
+          <physdesc>8 folders</physdesc>
+        </did>
+        <scopecontent>
+          <p>Incoming letters and copies of outgoing correspondence with family, business associates, and prominent archivists and writers. Letters are arranged alphabetically by the writer's or recipient's name. </p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <container type="folder">1</container>
+            <unittitle>A-D</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <container type="folder">2</container>
+            <unittitle>E-F</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <container type="folder">3</container>
+            <unittitle>Gusdorf, Ida, 
+
+              
+              
+              
+              
+              
+              
+              <unitdate>1942-1955.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <container type="folder">1</container>
+            <unittitle>H-M</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <container type="folder">2</container>
+            <unittitle>N-P</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <container type="folder">3</container>
+            <unittitle>Provenance, Mary Jones, 
+
+              
+              
+              
+              
+              
+              
+              <unitdate>1931-1942.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">1</container>
+            <unittitle>Schellenberg, Theodore</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">2</container>
+            <unittitle>T-Z</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="series2" level="series">
+        <did>
+          <unittitle>Diaries, 
+
+            
+            
+            
+            
+            
+            
+            <unitdate type="inclusive">1917-1918.</unitdate>
+          </unittitle>
+          <physdesc>32 v. in 5 folders</physdesc>
+        </did>
+        <scopecontent>
+          <p>Daily accounts of Provenance's experiences during his military service in France during World War I, primarily documenting the daily activites of camp
+life, weather, military battles, and operations of the army medical service. Also contains detailed and graphic accounts of his work as an ambulance
+driver.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">2-4</container>
+            <unittitle>
+              <unitdate>1917</unitdate>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <container type="folder">2</container>
+              <unittitle>
+                <unitdate>January-March</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <container type="folder">3</container>
+              <unittitle>
+                <unitdate>April-September</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <container type="folder">4</container>
+              <unittitle>
+                <unitdate>October-December</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">5-6</container>
+            <unittitle>
+              <unitdate>1918</unitdate>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <container type="folder">5</container>
+              <unittitle>
+                <unitdate>January</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <container type="folder">6</container>
+              <unittitle>
+                <unitdate>February-June</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 id="series3" level="series">
+        <did>
+          <unittitle>Novels, Poetry, and Essays, 
+
+            
+            
+            
+            
+            
+            
+            <unitdate type="inclusive">1947-1954.</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Published and unpublished writings of Provenance. All the materials are typescript, though most also include handwritten annotations. Some of text
+appears to have been deliberately obliterated, perhaps posthumously. The materials are organized into three groups by genre or subject matter: poetry,
+novels, and works relating to archival science.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">6</container>
+            <unittitle>Poetry,
+
+              
+              
+              
+              
+              
+              
+              <unitdate>1948-1952.</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>Verse in various forms, principally sonnets and limericks. The sonnets contain detailed dedications either to Provenance's mother or to an unnamed
+"dark lady." Many of the limericks are ribald in their subject matter.</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <container type="folder">1</container>
+            <unittitle>Novels,
+
+              
+              
+              
+              
+              
+              
+              <unitdate>1947-1955.</unitdate>
+            </unittitle>
+            <physdesc>1 folder</physdesc>
+          </did>
+          <scopecontent>
+            <p>Manuscripts of three unfinished novels, each apparently written in the style of an author Provenance admired.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">1</container>
+              <unittitle>
+                <title render="italic">For Whom the Chimes Toll, 
+ in the style of 
+                </title>
+                <persname>Ernest Hemingway, </persname>
+                <unitdate>1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">1</container>
+              <unittitle>
+                <title render="italic">The Great Gaspar,</title>
+                <unitdate>1953.</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">1</container>
+              <unittitle>
+                <title render="italic">Barchester Cathedral,</title>
+                <unitdate>1954.</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <container type="folder">2-4</container>
+            <unittitle>Works on archival theory, 
+
+              
+              
+              
+              
+              
+              
+              <unitdate>1947-1955.</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>Two unpublished essays and the complete manuscript of his book-length work, 
+              
+              
+              
+              
+              
+              
+              <title render="italic">Quarks: the Tao of Archival Description.
+ 
+Internal evidence within the collection suggests that this work may have been self-published though no copy of such an edition has been found in his
+papers.              </title>
+            </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">2</container>
+              <unittitle>
+                <title render="quoted">The Effects of Disintermediated Access on Archival
+Cataloging,</title>
+                <unitdate>1946 March 17.</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">3</container>
+              <unittitle>
+                <title render="quoted">The Centrality of Provenance,</title>
+                <unitdate>1951.</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <container type="folder">4</container>
+              <unittitle>
+                <title render="italic">Quarks: the Tao of Archival Description,</title>
+                <unitdate>1952.</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2006-09-07T11:17:39Z</responseDate>
+  <request verb="ListRecords" resumptionToken="32046a51fe0117afcb101dfa825c576a">http://dossj.vtls.com:8080/fedora/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:56</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1045982          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:56          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:57</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1110858          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>via ECO 1997-2002          </dc:description>
+          <dc:identifier>vital:57          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:58</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1110858           </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>via ECO 1997-2002          </dc:description>
+          <dc:identifier>vital:58          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:59</identifier>
+        <datestamp>2006-06-06T13:06:57Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1046111          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:59          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:60</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1366452          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:60          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:61</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:61          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:62</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>5044443          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>single userTri-Co deal          </dc:description>
+          <dc:identifier>vital:62          </dc:identifier>
+          <dc:coverage>4/10/2006          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:63</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:63          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:64</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:64          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:65</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:65          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:66</identifier>
+        <datestamp>2006-06-06T13:06:58Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2198277          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paying 90% of list price for 2002 &amp; 2003          </dc:description>
+          <dc:identifier>vital:66          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:67</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4578296          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Tri-Co deal          </dc:description>
+          <dc:identifier>vital:67          </dc:identifier>
+          <dc:coverage>9/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:68</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4835906          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:68          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:69</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>489702x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:69          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:70</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:70          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:71</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:71          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:72</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1061641          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:72          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:73</identifier>
+        <datestamp>2006-06-06T13:06:59Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4853532          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:73          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:74</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:74          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:75</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>111086x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:75          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:76</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1061483          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Accessed thru History Coop          </dc:description>
+          <dc:identifier>vital:76          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:77</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1061501          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:77          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:78</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:78          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:79</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:79          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:80</identifier>
+        <datestamp>2006-06-06T13:07:00Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1292390          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:80          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:81</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1061975          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:81          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:82</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:82          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:83</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:83          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:84</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:84          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:85</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:85          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:86</identifier>
+        <datestamp>2006-06-06T13:07:01Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:86          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:87</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1078057          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:87          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:88</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:88          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:89</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:89          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:90</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:90          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:91</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:91          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:92</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:92          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:93</identifier>
+        <datestamp>2006-06-06T13:07:02Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:93          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:94</identifier>
+        <datestamp>2006-06-06T13:07:03Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:94          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:95</identifier>
+        <datestamp>2006-06-06T13:07:03Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4953344          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:95          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:96</identifier>
+        <datestamp>2006-06-06T13:07:03Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4836753          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:96          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:97</identifier>
+        <datestamp>2006-06-06T13:07:03Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4836777          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:97          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:98</identifier>
+        <datestamp>2006-06-06T13:07:03Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>.o2047111          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>One-time purchase for Annual reviews backfiles.  Total cost is $5000.          </dc:description>
+          <dc:identifier>vital:98          </dc:identifier>
+          <dc:coverage>12/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:99</identifier>
+        <datestamp>2006-06-06T13:07:04Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:99          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:100</identifier>
+        <datestamp>2006-06-06T13:07:04Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1110883          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Includes Sec. C          </dc:description>
+          <dc:identifier>vital:100          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:101</identifier>
+        <datestamp>2006-06-06T13:07:04Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4836790          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:101          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:102</identifier>
+        <datestamp>2006-06-06T13:07:04Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4836807          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Began e-only with 2002          </dc:description>
+          <dc:identifier>vital:102          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:103</identifier>
+        <datestamp>2006-06-06T13:07:04Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4774292          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Bi-Co/Oberlin deal  (from RLG)          </dc:description>
+          <dc:identifier>vital:103          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:104</identifier>
+        <datestamp>2006-06-06T13:07:05Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4945244          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Purchased for 2003 calendar year.  Will not renew for 2004; have started subs. with RLG to Anthropology Plus, which includes this Anthro Index          </dc:description>
+          <dc:identifier>vital:104          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:105</identifier>
+        <datestamp>2006-06-06T13:07:05Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>5006739          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Partial Year Payment (10/03 to 08/04)          </dc:description>
+          <dc:identifier>vital:105          </dc:identifier>
+          <dc:coverage>9/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:106</identifier>
+        <datestamp>2006-06-06T13:07:05Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:106          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:107</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:107          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:108</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:108          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:109</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:109          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:110</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1062165          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:110          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:111</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:111          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:112</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:112          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:113</identifier>
+        <datestamp>2006-06-06T13:07:06Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:113          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:114</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>446543x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Oberlin Group deal; subscr. includes web access plus CD-ROM with software (housed in Special Collections)          </dc:description>
+          <dc:identifier>vital:114          </dc:identifier>
+          <dc:coverage>9/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:115</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:115          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:116</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>5061374          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:116          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:117</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:117          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:118</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4698526          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>823/02 payment on Palinet estimated invoice; but payment in Tripod is $1411.58 (a mistake).  April 03 payment was from palinet gen. ledger; no invoice was sent, and there is no entry in tripod.          </dc:description>
+          <dc:identifier>vital:118          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:119</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:119          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:120</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:120          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:121</identifier>
+        <datestamp>2006-06-06T13:07:07Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:121          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:122</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:122          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:123</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4437998          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:123          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:124</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1078112          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:124          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:125</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1085050          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:125          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:126</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1078148          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:126          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:127</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1078148          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:127          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:128</identifier>
+        <datestamp>2006-06-06T13:07:08Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>107815x          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:128          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:129</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Absorbed by Astronomy &amp; Astrophysics for 2001-          </dc:description>
+          <dc:identifier>vital:129          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:130</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1086360          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>includes Astronomy Reports  .o1085359          </dc:description>
+          <dc:identifier>vital:130          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:131</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1078161           </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:131          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:132</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:132          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:133</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4684096          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:133          </dc:identifier>
+          <dc:coverage>8/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:134</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4631468          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:134          </dc:identifier>
+          <dc:coverage>8/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:135</identifier>
+        <datestamp>2006-06-06T13:07:09Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1062402          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:135          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:136</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:136          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:137</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:137          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:138</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:138          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:139</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:139          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:140</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2198277          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paying 90% of list price for 2002 &amp; 2003          </dc:description>
+          <dc:identifier>vital:140          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:141</identifier>
+        <datestamp>2006-06-06T13:07:10Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4924873          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>3-year price (10/1/02-9/30/05)          </dc:description>
+          <dc:identifier>vital:141          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:142</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:142          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:143</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4950264          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Gale Digital Archive payment divided - 1/2 here and 1/2 on .o4950252 (Literature Resource Center)          </dc:description>
+          <dc:identifier>vital:143          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:144</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>4591495          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Bryn Mawr pays and bills us back          </dc:description>
+          <dc:identifier>vital:144          </dc:identifier>
+          <dc:coverage>9/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:145</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1080349          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:145          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:146</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>O7897431          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Oberlin deal          </dc:description>
+          <dc:identifier>vital:146          </dc:identifier>
+          <dc:coverage>5/31/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:147</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:147          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:148</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:148          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:149</identifier>
+        <datestamp>2006-06-06T13:07:11Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2185374          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:149          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:150</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2198277          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>paying 90% of list price for 2002 &amp; 2003          </dc:description>
+          <dc:identifier>vital:150          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:151</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2198277          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Paying 90% of list price for 2002 &amp; 2003          </dc:description>
+          <dc:identifier>vital:151          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:152</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1080362          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:152          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:153</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>We have paid our share of the &apos;buy-in cost.&apos;  1/2 on this order record and 1/2 on Literature Resource Center.          </dc:description>
+          <dc:identifier>vital:153          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:154</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>7441964          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>Faxing renewal on June 11, 2002          </dc:description>
+          <dc:identifier>vital:154          </dc:identifier>
+          <dc:coverage>6/30/2005          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:dossj.vtls.com:vital:155</identifier>
+        <datestamp>2006-06-06T13:07:12Z</datestamp>
+        <setSpec>objects</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc
+            xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+            http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>          </dc:title>
+          <dc:creator>acquisition record          </dc:creator>
+          <dc:subject>acquisition record          </dc:subject>
+          <dc:description>          </dc:description>
+          <dc:identifier>vital:155          </dc:identifier>
+          <dc:coverage>          </dc:coverage>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+<!--  We don't want to go any further.
+    <resumptionToken expirationDate="2006-09-07T15:25:59Z" cursor="100">b8900921dda1cbf43b0726c4c5652e03</resumptionToken>
+-->
+  </ListRecords>
+</OAI-PMH>

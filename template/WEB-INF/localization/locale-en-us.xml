@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Strings>
+	<Application>Fedora Repository</Application>
+
+	<!-- Navigation -->
+	<Home>Home</Home>
+	<Repository>View <b>Repository</b></Repository>
+	<ListOfTitles>List Of Titles</ListOfTitles>
+	<FullDisplay>Full Display</FullDisplay>
+
+	<!-- List of Titles -->
+	<DCTitle>Title</DCTitle>
+	<DCCreator>Creator</DCCreator>
+	<LastModifiedDate>Date</LastModifiedDate>
+	
+	<!-- Full Display -->
+	<DCDescription>Description</DCDescription>
+	<DCSubject>Subject</DCSubject>
+	<DCPublisher>Publisher</DCPublisher>
+	<DCDate>Date</DCDate>
+	<DCKeyword>Keyword</DCKeyword>
+	<DCRights>Rights</DCRights>
+	<DCSource>Source</DCSource>
+	<DCType>Type</DCType>
+	<DCFormat>Format</DCFormat>
+	<DCIdentifier>Identifier</DCIdentifier>
+	<DCRelation>Relation</DCRelation>
+	<DCLanguage>Language</DCLanguage>
+	
+	<Login>Sign In</Login>
+	<Logout>Sign Out</Logout>
+	<StateLoggedIn>You are now logged in as </StateLoggedIn>
+	<Search>Search</Search>
+	<Browse>Browse</Browse>
+	
+</Strings>
