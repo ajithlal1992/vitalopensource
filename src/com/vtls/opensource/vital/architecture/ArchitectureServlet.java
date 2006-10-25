@@ -227,16 +227,32 @@ public final class ArchitectureServlet extends HttpServlet
 
 			// Process the Action.
 			action.execute();
-		} catch (Exception e) {
-			String stackTrace = e.getMessage() + System.getProperty("line.separator");
-			StackTraceElement[] elements = e.getStackTrace();
+		}
+		catch (Exception e)
+		{
+			StringBuffer stackTrace = new StringBuffer();
+			stackTrace.append(e.getMessage()).append(System.getProperty("line.separator"));
 
-			for (int i=0; i<elements.length; i++) {
+			StackTraceElement[] elements = e.getStackTrace();
+			for(int i=0; i < elements.length; i++)
+			{
 				StackTraceElement line = elements[i];
-				stackTrace += line.toString() + System.getProperty("line.separator");
+				String elementString = line.toString();
+				if(elementString.startsWith("com.vtls."))
+			      stackTrace.append(elementString).append(System.getProperty("line.separator"));
+			   else
+			   {
+			      if(elementString.indexOf("(") >= 0)
+			      {
+			         elementString = elementString.substring(elementString.indexOf("("));
+		            stackTrace.append(elementString).append(System.getProperty("line.separator"));
+	            }
+	            else
+		            stackTrace.append("...").append(System.getProperty("line.separator"));
+		      }
 			}
 			
-			request.setAttribute("m_exceptionStackTrace", stackTrace);
+			request.setAttribute("m_exceptionStackTrace", stackTrace.toString());
 			
 			m_logger.error(e);
 
