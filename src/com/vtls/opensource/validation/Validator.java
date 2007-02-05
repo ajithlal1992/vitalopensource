@@ -21,6 +21,16 @@ public class Validator
 	{
 		String string = ValidatorUtils.getValueAsString(_object, _field.getProperty());
 		String expression = _field.getVarValue("expression");
+
+      // If the String we're evaluating is not available, then assume it fails
+      // the test. 
+		if(string == null)
+		   return false;
+		   
+		// If we haven't bothered to supply an expression, assume it passes.
+		if(expression == null)
+		   return true;
+		   
 		return GenericValidator.matchRegexp(string, expression);
 	}
 

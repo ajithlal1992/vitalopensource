@@ -67,4 +67,19 @@ public class DateUtilities
 		//Calculate and return the new Date by adding the offset.
 		return new Date(_date.getTime() + new Long(offset).longValue());
 	}
+	
+	/**
+	 * Converts a local Date to a GMT Date at that specific date.
+	 * @param _date A local {@link Date}
+	 * @return A {@link Date} representing the GMT date.
+	 */
+	public static Date convertLocaltoGMT(Date _date) {
+		if(_date == null) {
+			return null;
+		}
+		//Get the GMT-offset for this timezone at that date.
+		int offset = TimeZone.getDefault().getOffset(_date.getTime());
+		//Calculate and return the new Date by adding the offset.
+		return new Date(_date.getTime() - new Long(offset).longValue());
+	}
 }

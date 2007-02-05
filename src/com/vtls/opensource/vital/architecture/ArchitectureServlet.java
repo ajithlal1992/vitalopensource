@@ -158,11 +158,8 @@ public final class ArchitectureServlet extends HttpServlet
 		}
 
 		// Get the package name. (Just 'com.vtls.actions' in the simple case.)
-		String package_name = (String)request.getAttribute(REQUEST_INTENDED_ACTION);
-		if(package_name == null)
-		{
-			package_name = getPackageName(action.getClass());
-		}
+		String package_name = getPackageName(action.getClass());
+		session.setAttribute("PackageName", (package_name != null) ? package_name : "Aah!");
 
 		if(package_name != null && m_config.getInitParameter(package_name) != null)
 		{
@@ -254,7 +251,8 @@ public final class ArchitectureServlet extends HttpServlet
 			
 			request.setAttribute("m_exceptionStackTrace", stackTrace.toString());
 			
-			m_logger.error(e);
+			// TODO: Supply enough debugging information to be helpful.
+			m_logger.error("The user experienced a RuntimeException on [" + request.getRequestURL().toString() + "].", e);
 
 			throw new RuntimeException(e);
 		}
@@ -262,6 +260,10 @@ public final class ArchitectureServlet extends HttpServlet
 		// Get view/redirect values from the Action.
 		String view = action.getView();
 		String redirect = action.getRedirect();
+		
+		// Put them in the request for reference.
+		request.setAttribute("m_view", view);
+		request.setAttribute("m_redirect", redirect);
 
 		// Add timing information to the Request object.
 		request.setAttribute(REQUEST_TIMING, new Long(System.currentTimeMillis() - timing_start));
@@ -435,8 +437,9 @@ public final class ArchitectureServlet extends HttpServlet
 		}
 
 		String qualified_name = _class.getName();
+		
 		int class_position = qualified_name.lastIndexOf(".");
-		return (class_position < 0) ? null : qualified_name.substring (0, class_position);
+		return (class_position < 0) ? null : qualified_name.substring(0, class_position);
 	}
 
 	/**

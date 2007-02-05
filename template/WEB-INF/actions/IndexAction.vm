@@ -30,7 +30,7 @@ div.debugging table tbody td.first
 </head>
 
 <body>
-<a href="$m_request_link.changePage("/Index")"><img src="$m_assets/1.png" border="0" alt="$m_locale.Application"/></a>
+<a href="$m_request_link.changePage("/Index")"><img src="/vtls/assets/1.png" border="0" alt="$m_locale.Application"/></a>
 </body>
 
 #if($toolbox_parameters.debug == "on" || $m_debug == "on")

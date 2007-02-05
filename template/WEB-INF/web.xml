@@ -18,10 +18,9 @@
          <param-value>/WEB-INF/vital.properties</param-value>
       </init-param>
 	</filter>
-	
 	<filter-mapping>
 		<filter-name>ArchitectureFilter</filter-name>
-		<url-pattern>/vital/*</url-pattern>
+		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 	
 	<servlet>
@@ -66,6 +65,15 @@
 		<servlet-name>velocity</servlet-name>
 		<url-pattern>*.vm</url-pattern>
 	</servlet-mapping>
+
+   <filter>
+       <filter-name>PageCompression</filter-name>
+       <filter-class>com.vtls.opensource.vital.architecture.PageCompressionFilter</filter-class>
+   </filter>
+	<filter-mapping>
+		<filter-name>PageCompression</filter-name>
+		<url-pattern>/vital/*</url-pattern>
+	</filter-mapping>
 
    <error-page>
       <error-code>404</error-code>

@@ -84,6 +84,7 @@ public class XMLUtilities
 	public static Document getDocument(InputStream _stream) throws JDOMException, IOException
 	{
 		SAXBuilder builder = new SAXBuilder();
+		builder.setEntityResolver(new NullEntityResolver());
 		return builder.build(_stream);
 	}
 
