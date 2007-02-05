@@ -128,6 +128,7 @@
 
 			<fileset dir="src" defaultexcludes="yes">
 				<include name="com/vtls/**"/>
+				<include name="org/**"/>
 			</fileset>
 
 			<doctitle><![CDATA[<h1>VITAL OpenSource API</h1>]]></doctitle>
@@ -159,6 +160,7 @@
 	<!-- If auto-deploy is on (as is by default) this works as advertised. -->
 	<target name="deploy" depends="build, undeploy" description="Deploy application to Tomcat server.">
 		<copy file="${dist.dir}/${webapp.name}.war" todir="${deploy.dir}"/>
+		<touch file="${deploy.dir}/${webapp.name}.war"/>
 	</target>
 
 	<target name="deploy-assets" depends="init" description="Deploy presentation templates.">
@@ -219,13 +221,12 @@
 
          <test name="testing.com.vtls.opensource.experimental.VelocityDVSLTestCase"/>
          <test name="testing.com.vtls.opensource.experimental.KeywordExtractionTestCase"/>
-<!--
-         <test name="testing.com.vtls.opensource.experimental.LDAPTestCase"/>
--->
 
 <!--
+         <test name="testing.com.vtls.opensource.experimental.LDAPTestCase"/>
          <test name="testing.com.vtls.opensource.security.RSAKeyPairTestCase"/>
 -->
+
          <test name="testing.com.vtls.opensource.security.SHA1DigesterTestCase"/>
 
          <test name="testing.com.vtls.opensource.text.HTMLTextSourceTestCase"/>
@@ -246,6 +247,10 @@
          <test name="testing.com.vtls.opensource.ldap.LDAPTestCase"/>
 
          <test name="testing.com.vtls.opensource.utilities.DateUtilitiesTestCase"/>
+
+         <test name="testing.com.vtls.opensource.utilities.XMLUtilitiesTestCase"/>
+
+         <test name="testing.com.vtls.opensource.utilities.URLEncoderTestCase"/>
 
         </junit>
       <fail if="test.failed">Unit tests failed.</fail>
@@ -291,7 +296,7 @@
          <classpath refid="project_classpath"/>
 			<classpath location="${build.instrumented.dir}"/>
          <formatter type="plain" usefile="false"/>
-         <test name="testing.com.vtls.opensource.image.PackageTestCase"/>
+         <test name="testing.com.vtls.opensource.filters.PackageTestCase"/>
       </junit>
       <fail if="test.failed">Unit tests failed.</fail>
 	</target>

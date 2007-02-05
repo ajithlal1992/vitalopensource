@@ -41,7 +41,7 @@ import com.vtls.opensource.logging.Log4JLogger;
 
 /**
  * A JDOM implementation of an OAI-PMH Provider "proxy".
- * This class mearly provides a light API to a provider.
+ * This class merely provides a light API to a provider.
  * 
  *  @author Chris Hall
  *  @version 1.0

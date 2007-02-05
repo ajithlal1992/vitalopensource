@@ -4,6 +4,7 @@ import com.vtls.opensource.oai.Harvester;
 import com.vtls.opensource.oai.Provider;
 import com.vtls.opensource.oai.handlers.Handler;
 import com.vtls.opensource.oai.handlers.DefaultHandler;
+import com.vtls.opensource.utilities.DateUtilities;
 import com.vtls.opensource.utilities.XMLUtilities;
 
 import java.io.OutputStream;
@@ -41,7 +42,7 @@ import com.vtls.opensource.logging.Log4JLogger;
  * It can also harvest from external sites and load the metadata into Fedora.
  * 
  * @author Chris Hall
- * @verion 1.0
+ * @version 1.0
  */
 public class HarvesterApplication {
 	/**
@@ -90,12 +91,32 @@ public class HarvesterApplication {
 			Provider provider = new Provider(baseURL);
 			
 			//Check for a previous harvest.
-			String previous = properties.getProperty("harvest.previous");			
-			if (previous != null) {
+			String previous = properties.getProperty("previous.date");			
+			if ((previous != null) && "true".equals(properties.getProperty("previous.override"))) {
+				//Check to see if a GMT-offset fix is necessary.
+				//Get the offset.
+				String offset = properties.getProperty("previous.gmtoffset");
+				if ((offset != null) && previous.endsWith("Z") && !previous.equals(provider.format_date(previous))) {
+					//Date needs fixing.
+					String format = "yyyy-MM-dd'T'HH:mm:ss'Z'";
+					Date oldPrevious = DateUtilities.getDateFromString(previous, format);
+					//Remove any + sign from the beginning.
+					if (offset.startsWith("+")) {
+						offset = offset.substring(1);
+					}
+					//Convert the offset from hours to milliseconds.
+					long offsetValue = new Long(offset).longValue() * 3600000;
+					//Add the offset.
+					Date adjustedPrevious = new Date(oldPrevious.getTime() + offsetValue);
+					//Get the adjusted date back as a String.
+					previous = DateUtilities.getFormattedDate(adjustedPrevious, format);
+				}
 				//Reset the from and until.
 				from = previous;
 				until = null;
 			}
+			
+			
 			
 			//Format the dates.
 			from = provider.format_date(from);
@@ -159,7 +180,7 @@ public class HarvesterApplication {
 				}
 				
 				//Save the responseDate.
-				recordProperty(properties_filename, "harvest.previous", responseDate);
+				recordProperty(properties_filename, "previous.date", responseDate);
 				System.out.println("Finished.");
 			} else {
 				//Log error.
@@ -191,9 +212,6 @@ public class HarvesterApplication {
 	
 	/**
 	 * Initializes and returns a Handler object.
-	 * 
-	 * @param target_config The XML config Document for the Handler.
-	 * @param type What type of harvest are we to perform.
 	 * 
 	 * @return An intialized Handler object.
 	 */
@@ -292,7 +310,7 @@ public class HarvesterApplication {
 		String line = null;
 		while ((line = buffered_reader.readLine()) != null) {
 			if (line.startsWith(property)) {
-				line = property + " = " + value;
+				line = line.substring(0, line.indexOf("=") + 1) + " " + value;
 				found = true;
 			}
 			lines.add(line);
@@ -301,7 +319,7 @@ public class HarvesterApplication {
 		reader.close();
 		
 		if (!found) {
-			lines.add("\n\n# Could not find property in file.  Adding here:\n#\n");
+			lines.add("\n\n# Could not find property in file.  Adding here:\n#");
 			lines.add(property + " = " + value);
 		}
 		

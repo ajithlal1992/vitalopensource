@@ -36,48 +36,57 @@ public class JPEG2000Properties extends Properties implements FormatProperties
 
       // The FileFormatReader strips away the container for the codestreams.
       // If we're dealing with a JP2 image, we can just seek ahead.
-      FileFormatReader format_reader = new FileFormatReader(stream_io);
-      format_reader.readFileFormat();
-      if(format_reader.JP2FFUsed)
-      {
-    	  stream_io.seek(format_reader.getFirstCodeStreamPos());
-      }
-
-      // The useful information is encoded in the header which will need 
-      // decoding. The HeaderDecoder and the HeaderInfo instances will
-      // have different knowledge about the image.
-      HeaderDecoder decoder = null;
-      HeaderInfo header_info = new HeaderInfo();
       try
       {
-         decoder = new HeaderDecoder(stream_io, new ParameterList(), header_info);
+         FileFormatReader format_reader = new FileFormatReader(stream_io);
+         format_reader.readFileFormat();
+         if(format_reader.JP2FFUsed)
+         {
+       	  stream_io.seek(format_reader.getFirstCodeStreamPos());
+         }
+
+         // The useful information is encoded in the header which will need 
+         // decoding. The HeaderDecoder and the HeaderInfo instances will
+         // have different knowledge about the image.
+         HeaderDecoder decoder = null;
+         HeaderInfo header_info = new HeaderInfo();
+         try
+         {
+            decoder = new HeaderDecoder(stream_io, new ParameterList(), header_info);
+         }
+         catch(java.io.EOFException e)
+         {
+            return;
+         }
+      
+         int components = decoder.getNumComps();
+         setProperty(FormatProperties.Components, String.valueOf(components));
+         setProperty(FormatProperties.Tiles, String.valueOf(header_info.siz.getNumTiles()));
+
+         DecoderSpecs decoder_specs = decoder.getDecoderSpecs();
+         int resolution_levels = Integer.parseInt(decoder_specs.dls.getDefault().toString());
+         setProperty(FormatProperties.ResolutionLevels, String.valueOf((resolution_levels + 1)));
+         setProperty(FormatProperties.QualityLevels, String.valueOf(decoder_specs.nls.getDefault()));
+
+         if(components > 0)
+         {
+            setProperty(FormatProperties.Width, String.valueOf(header_info.siz.getCompImgWidth(0)));
+            setProperty(FormatProperties.Height, String.valueOf(header_info.siz.getCompImgHeight(0)));
+            setProperty(FormatProperties.BitDepth, String.valueOf(header_info.siz.getOrigBitDepth(0)));
+
+            StringBuffer dimensions = new StringBuffer();
+            dimensions.append(this.getProperty(FormatProperties.Width)).append("x").append(this.getProperty(FormatProperties.Height));
+            setProperty(FormatProperties.Dimensions, dimensions.toString());
+         }
+
+         stream_io.close();
       }
-      catch(java.io.EOFException e)
+      // We shouldn't catch this, but the stupid library throws the
+      // 'uncatchable' java.lang.Error for 'File is neither valid JP2 file nor
+      // valid JPEG 2000 codestream'.
+      catch(java.lang.Error e)
       {
          return;
       }
-      
-      int components = decoder.getNumComps();
-      setProperty(FormatProperties.Components, String.valueOf(components));
-      setProperty(FormatProperties.Tiles, String.valueOf(header_info.siz.getNumTiles()));
-
-      DecoderSpecs decoder_specs = decoder.getDecoderSpecs();
-      int resolution_levels = Integer.parseInt(decoder_specs.dls.getDefault().toString());
-      setProperty(FormatProperties.ResolutionLevels, String.valueOf((resolution_levels + 1)));
-      setProperty(FormatProperties.QualityLevels, String.valueOf(decoder_specs.nls.getDefault()));
-
-      if(components > 0)
-      {
-         setProperty(FormatProperties.Width, String.valueOf(header_info.siz.getCompImgWidth(0)));
-         setProperty(FormatProperties.Height, String.valueOf(header_info.siz.getCompImgHeight(0)));
-         setProperty(FormatProperties.BitDepth, String.valueOf(header_info.siz.getOrigBitDepth(0)));
-
-         StringBuffer dimensions = new StringBuffer();
-         dimensions.append(this.getProperty(FormatProperties.Width)).append("x").append(this.getProperty(FormatProperties.Height));
-         setProperty(FormatProperties.Dimensions, dimensions.toString());
-      }
-
-      stream_io.close();
-      // m_logger.debug(header_info.siz.toString());
    }
 }

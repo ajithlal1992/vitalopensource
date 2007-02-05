@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <marc:record>
+    <marc:leader>01064nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0028</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Vogt, Stanley </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Mitchell River in flood, Bairnsdale </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1900-1909</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Barraclough, L. - Gippsland in focus|Adams, J.D. - Path among the years </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">16-Oct-90</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> The Phoenix Foundry and Bairnsdale and District Co-operative Butter Factory are lapped by floodwaters, probably in the early 1900s.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Mitchell River</marc:subfield>
+      <marc:subfield code="a">Floods</marc:subfield>
+      <marc:subfield code="a">Bairnsdale</marc:subfield>
+      <marc:subfield code="a">Butter factories</marc:subfield>
+      <marc:subfield code="a">Factories</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00934nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0001</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Small, Fred H. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">First train at Warragul 1879</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1878</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">18 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Wilde, S. - Forests old, pastures new </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A train stands before some early buildings.  The railway line to Warragul opened in March 1878.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Warragul</marc:subfield>
+      <marc:subfield code="a">Railways</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00947nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0002</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Home in the bush, Neerim </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A house stands on a mainly cleared hillside.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Houses</marc:subfield>
+      <marc:subfield code="a">Neerim</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00861nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Small, Fred H. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Warragul Station, 1909 </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1909</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">16 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A view of Warragul station from the eastern end.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Warragul Railway Station</marc:subfield>
+      <marc:subfield code="a">Railway stations</marc:subfield>
+      <marc:subfield code="a">Warragul</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00980nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0005</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> A Big Tree, Mount Horsfall </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> Two men stand at the foot of a very large tree, on Mount Horsfall.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Trees</marc:subfield>
+      <marc:subfield code="a">Mount Horsfall</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00758nkm a22001932a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0006</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Felling a large tree</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">An axeman is chopping down a large tree.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Timber industry</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00978nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0007</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Magpie Ridge Road</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> This scene is near the Toorango River, north of Noojee.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Noojee</marc:subfield>
+      <marc:subfield code="a">Road construction and maintenance</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00972nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0009</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Tarago - Neerim</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Picture of the Tarago River and surrounding bush at Neerim.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Tarago River</marc:subfield>
+      <marc:subfield code="a">Neerim</marc:subfield>
+      <marc:subfield code="a">Forest</marc:subfield>
+      <marc:subfield code="a">Ferns</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00946nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0010</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Myrtle Avenue, Lock Valley, Neerim </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issued of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Forest scene at Loch Valley.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Loch Valley</marc:subfield>
+      <marc:subfield code="a">Forest</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00939nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0011</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">On the Lock River</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Forest scene along the Loch River.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Loch River</marc:subfield>
+      <marc:subfield code="a">Forest</marc:subfield>
+      <marc:subfield code="a">Ferns</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00924nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0012</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> A Fern Bower, Tarago River, Neerim </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Tarago River</marc:subfield>
+      <marc:subfield code="a">Neerim</marc:subfield>
+      <marc:subfield code="a">Ferns</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00899nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0013</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Lock Valley Bridge</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Loch Valley</marc:subfield>
+      <marc:subfield code="a">Bridges</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00812nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0014</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> A Typical Fern Gully, Glen Nayook, Neerim </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Glen Nayook</marc:subfield>
+      <marc:subfield code="a">Ferns</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00922nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0015</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> A Typical Fern Gully, Glen Nayook, Neerim </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Jones, S. - Known postcard issues of John Young Woolstencroft of Neerim Junction and Noojee </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Glen Nayook</marc:subfield>
+      <marc:subfield code="a">Ferns</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>01029nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0016</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Lowenhardt, Max </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Selector's home, Fumina </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1906-1907</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Hunt, D. - A history of Neerim </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> Two men and two children are outside a large hollow tree used as a house. John Green is on the left, the others are members of the Penny family who lived in the tree from 1906 to 1907. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a"> Trees</marc:subfield>
+      <marc:subfield code="a">Houses</marc:subfield>
+      <marc:subfield code="a">Penny family</marc:subfield>
+      <marc:subfield code="a">Green, John</marc:subfield>
+      <marc:subfield code="a">Fumina </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00936nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0017</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> A Big Tree, Mount Horsfall </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1907-1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> McIntosh, G. - Noojee calling </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> Two men, one on horseback, stand at the foot of a very large tree at Mount Horsfall.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Trees</marc:subfield>
+      <marc:subfield code="a">Mount Horsfall</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00877nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0018</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Woolstencroft, John Young </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Railway line, probably the Noojee to Tooronga section </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1917-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Barraclough, L. - Gippsland in focus </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Railways</marc:subfield>
+      <marc:subfield code="a">Noojee</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00999nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0019</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Chinaman's Creek</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1914-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Halstead, G. - The story of Metung </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A view of Chinaman's Creek from Metung House.  Metung House was a boarding house built by the Brooker family after 1914.  The small girl in the foreground is Jean Brooker.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a"> Chinaman's Creek</marc:subfield>
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+      <marc:subfield code="a">Brooker, Jean </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>01137nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0020</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Chinaman's Creek</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1914-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Halstead, G. - The story of Metung </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> Two launches are at the Metung House jetty on Chinaman's Creek.  Metung House was a boarding house built by the Brooker family after 1914.  Robert Brooker is standing in the bow of the boat on the left, William Brooker is standing in the small motor boat on the right.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a"> Boats and boating</marc:subfield>
+      <marc:subfield code="a">Chinaman's Creek</marc:subfield>
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+      <marc:subfield code="a">Brooker, Robert</marc:subfield>
+      <marc:subfield code="a">Brooker, William </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00981nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0021</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> In the orchard, Metung House </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1914-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Halstead, G. - The story of Metung </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A group of women and children in the orchard of Metung House.  Metung House was a boarding house built by the Brooker family after 1914.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Chinaman's Creek</marc:subfield>
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+      <marc:subfield code="a">Orchards</marc:subfield>
+      <marc:subfield code="a">Clothing</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00800nkm a22002052a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0022</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Kalimna jetty</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1910-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">A group of people on Kalimna jetty in the early 1900s.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+      <marc:subfield code="a">Kalimna</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00910nkm a22002052a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0023</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Bonnie Doone on Chinaman's Creek</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1910-1919</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> A boat named Bonnie Doone on Chinaman's Creek, probably taken from Bancroft Cottage looking across to Metung House.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Boats and boating</marc:subfield>
+      <marc:subfield code="a">Chinaman's Creek</marc:subfield>
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00723nkm a22001932a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0024</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Mitchell River, Bairnsdale </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Mitchell River</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>01011nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0025</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Bulmer, Howard Decimus </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Public buildings, Bairnsdale </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1910</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Adams, J.D. - Path among the years </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> From left to right, this shows the Post Office, Court House and Shire Hall at Bairnsdale, about 1910.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Bairnsdale</marc:subfield>
+      <marc:subfield code="a">Post offices</marc:subfield>
+      <marc:subfield code="a">Courthouses</marc:subfield>
+      <marc:subfield code="a">Municipal offices</marc:subfield>
+      <marc:subfield code="a">Bairnsdale Post Office</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00914nkm a22002172a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0026</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Main Street Reserves, Bairnsdale </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1920-1929</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Bulmer, H.D. - East Gippsland and its gateway </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> The public gardens on Main Street, Bairnsdale, looking west, probably in the late 1920s.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Bairnsdale</marc:subfield>
+      <marc:subfield code="a">Parks</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00886nkm a22002292a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0027</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Bulmer, Howard Decimus </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Main St. Bairnsdale</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1900</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a"> Adams, J.D. - Path among the years </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a"> Main Street, Bairnsdale, looking west, about 1900.  Taken from a postcard. </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Bairnsdale</marc:subfield>
+      <marc:subfield code="a">Parks</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00813nkm a22002052a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0032</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+      <marc:subfield code="a"> Bulmer, Howard Decimus </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Portrait of a man</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Portrait of a man holding a fishing rod and camera and smoking a pipe. Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Men</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00767nkm a22002052a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0033</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a"> Sincerely yours, Paddy, 18/6/18 </marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+      <marc:subfield code="c">1918</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">24 x 19 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="520">
+      <marc:subfield code="a">Portrait of an elderly man.  Taken from a postcard.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Men</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+  <marc:record>
+    <marc:leader>00690nkm a22001812a 4500</marc:leader>
+    <marc:controlfield tag="008">050127q18uu19uuvrannn       |    k|eng d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+      <marc:subfield code="a">AE0034</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+      <marc:subfield code="a">VMOU</marc:subfield>
+      <marc:subfield code="b">eng</marc:subfield>
+      <marc:subfield code="c">VMOU</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="043">
+      <marc:subfield code="a">u-at-vi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2="0" tag="245">
+      <marc:subfield code="a">Reeves Channel from Jemmy's Point</marc:subfield>
+      <marc:subfield code="h">[picture].</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+      <marc:subfield code="a">1 photoprint :</marc:subfield>
+      <marc:subfield code="b"> b&amp;w ;</marc:subfield>
+      <marc:subfield code="c">19 x 24 cm.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">Record generated from title list.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+      <marc:subfield code="a">28-Aug-91</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="540">
+      <marc:subfield code="a">Copyright expired under Copyright Act 1968 Commonwealth of Australia as at 21/02/06..</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="541">
+      <marc:subfield code="a">Item held by Centre for Gippsland Studies, Monash University.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="653">
+      <marc:subfield code="a">Gippsland Lakes</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+      <marc:subfield code="a">Centre for Gippsland Studies (Monash University)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+      <marc:subfield code="a">Centre for Gippsland Studies Picture Collection.</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

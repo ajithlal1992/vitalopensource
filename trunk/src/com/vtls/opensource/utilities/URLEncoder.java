@@ -1,5 +1,8 @@
 package com.vtls.opensource.utilities;
 
+import java.net.URL;
+import java.net.MalformedURLException;
+
 /**
  * Source: http://www.w3.org/International/URLUTF8Encoder.java
  * Provides a method to encode any string into a URL-safe
@@ -106,5 +109,21 @@ public class URLEncoder
 		   }
 	   }
 	   return sbuf.toString();
+   }
+   
+   public static URL encode(URL _url) {
+	   String protocol = _url.getProtocol();
+	   String host = _url.getHost();
+	   int port = _url.getPort();
+	   String file = _url.getFile();
+	   if (file != null) {
+		   file = file.replaceAll(" ", "%20");
+	   }
+	   
+	   try {
+		   return new URL(protocol, host, port, file);
+	   } catch (MalformedURLException mfue) {
+		   return null;
+	   }
    }
 }

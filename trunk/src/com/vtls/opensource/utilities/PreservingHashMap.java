@@ -2,7 +2,8 @@ package com.vtls.opensource.utilities;
 
 import java.util.LinkedHashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
@@ -73,7 +74,7 @@ public final class PreservingHashMap extends LinkedHashMap
       // associated with the key with our '_value' as its first element.
       if(!super.containsKey(_key))
       {
-         List list = new LinkedList();
+         List list = new ArrayList();
          list.add(_value);
          return super.put(_key, list);
       }
@@ -98,7 +99,26 @@ public final class PreservingHashMap extends LinkedHashMap
     */
    public void putAll(Map t)
    {
-      m_logger.error("The 'putAll' method is not supported in " + PreservingHashMap.class.getName() + ".");
+      if(t == null)
+         return;
+         
+      Iterator iterator = t.keySet().iterator();
+      while(iterator.hasNext())
+      {
+         Object key = iterator.next();
+         Object value = t.get(key);
+         
+         if(value instanceof Collection)
+         {
+            Iterator collectionIterator = ((Collection)value).iterator();
+            while(collectionIterator.hasNext())
+            {
+               this.put(key, collectionIterator.next());
+            }
+         }
+         else
+            this.put(key, value);
+      }
    }
    
    /**

@@ -47,6 +47,17 @@ public class ArchitectureFilter implements Filter
             PropertiesSingleton properties = PropertiesSingleton.getInstance();
             properties.load(new FileInputStream(m_context.getRealPath(properties_filename)));
             properties.setProperty("servlet.path", _filter_config.getServletContext().getRealPath("/"));
+            // Trim all values and remove empty strings.
+            Enumeration properties_enum = properties.propertyNames();
+            while (properties_enum.hasMoreElements()) {
+            	String property = (String) properties_enum.nextElement();
+            	String value = properties.getProperty(property).trim();
+            	if ("".equals(value)) {
+            		properties.remove(property);
+            	} else {
+            		properties.setProperty(property, value);
+            	}
+            }
          }
       }
       catch(Exception e)

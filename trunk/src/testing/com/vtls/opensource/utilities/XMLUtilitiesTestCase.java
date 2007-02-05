@@ -119,9 +119,9 @@ public class XMLUtilitiesTestCase extends TestCase
 
 	   m_logger.info(document_content);
 	}
-	
+	*/
 	public void testTransformMARC_DC() throws FileNotFoundException, JDOMException, IOException, TransformerException {
-		Document document = XMLUtilities.getDocument(new FileInputStream("src/testing/data/xml/MARC.xml"));
+		Document document = XMLUtilities.getDocument(new FileInputStream("src/testing/data/xml/MARC.xml.bad"));
 		StringBuffer transformation = XMLUtilities.transform(document, new FileInputStream("src/testing/data/xslt/marc_dc.xsl"));
 		InputStream stream = StreamUtilities.getInputStreamFromString(transformation.toString());
 		Document result_document = XMLUtilities.getDocument(stream);
@@ -134,5 +134,4 @@ public class XMLUtilitiesTestCase extends TestCase
 		
 		m_logger.info(document_content);
 	}
-*/
 }

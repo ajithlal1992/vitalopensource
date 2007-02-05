@@ -23,6 +23,8 @@ import testing.com.vtls.opensource.vital.architecture.ArchitectureFilterTestCase
 
 import testing.com.vtls.opensource.services.XFireTestCase;
 
+import testing.com.vtls.opensource.utilities.XMLUtilitiesTestCase;
+
 import testing.com.vtls.opensource.oai.ProviderTestCase;
 import testing.com.vtls.opensource.oai.HarvesterTestCase;
 //import testing.com.vtls.opensource.ldap.LDAPAuthenticatorTestCase;
@@ -44,6 +46,9 @@ public class UnitTests extends TestCase
 	public static Test suite()
 	{
 		TestSuite suite = new TestSuite(TemplateTestCase.class);
+		
+		suite.addTest(new TestSuite(XMLUtilitiesTestCase.class));
+	/*	
 		suite.addTest(new TestSuite(XFireTestCase.class));
 		suite.addTest(new TestSuite(ArchitectureFilterTestCase.class));
 		suite.addTest(new TestSuite(KeywordExtractionTestCase.class));
@@ -82,7 +87,7 @@ public class UnitTests extends TestCase
 		
 		// com.vtls.opensource.ldap
 		suite.addTest(new TestSuite(testing.com.vtls.opensource.ldap.LDAPTestCase.class));
-		
+		*/
 		return suite;
 	}
 }

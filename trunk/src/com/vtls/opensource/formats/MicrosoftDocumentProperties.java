@@ -102,7 +102,8 @@ public class MicrosoftDocumentProperties extends Properties implements FormatPro
 		}
 
 		setProperty(FormatProperties.Words, String.valueOf(properties.getCCh()));
-		setProperty(FormatProperties.Pages, String.valueOf(properties.getCPg()));
+		// TODO: Not functional.
+		// setProperty(FormatProperties.Pages, String.valueOf(properties.getCPg()));
 		setProperty(FormatProperties.Paragraphs, String.valueOf(properties.getCParas()));
 	}
 }

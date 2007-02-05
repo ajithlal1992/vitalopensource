@@ -53,6 +53,8 @@ public class FormatPropertiesFactory
 				
 	      if(_mime_type.equals("application/pdf"))
 				return new PDFProperties(_stream);
+	      else if(_mime_type.equals("application/msword"))
+				return new MicrosoftDocumentProperties(_stream);
 	      else if(_mime_type.equals("text/xml"))
 				return new XMLProperties(_stream);
 	      else if(_mime_type.equals("image/x-mrsid-image"))
