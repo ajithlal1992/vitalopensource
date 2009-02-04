@@ -26,7 +26,7 @@ public class MrSIDProperties extends Properties implements FormatProperties
 	 */
 	public MrSIDProperties(InputStream _stream) throws IOException
 	{
-		byte[] header = new byte[32];
+		byte[] header = new byte[64];
 		int bytes = _stream.read(header);
 
 		if(bytes != header.length && !MrSIDProperties.verifySignature(header))
@@ -35,10 +35,36 @@ public class MrSIDProperties extends Properties implements FormatProperties
 		}
 
 		setProperty(FormatProperties.Format, "MrSID Image");
-		setProperty(FormatProperties.BitsPerPixel, String.valueOf(getIntBigEndian(header, 7)));
-		setProperty(FormatProperties.ResolutionLevels, String.valueOf(getIntBigEndian(header, 11)));
-		setProperty(FormatProperties.Width, String.valueOf(getIntBigEndian(header, 15)));
-		setProperty(FormatProperties.Height, String.valueOf(getIntBigEndian(header, 19)));
+		
+		final int version = (int)header[4];
+		setProperty(FormatProperties.Version, String.valueOf(version));
+		
+		if(version <= 2)
+		{
+   		setProperty(FormatProperties.BitsPerPixel, String.valueOf(getIntBigEndian(header, 7)));
+   		setProperty(FormatProperties.ResolutionLevels, String.valueOf(getIntBigEndian(header, 11)));
+   		setProperty(FormatProperties.Width, String.valueOf(getIntBigEndian(header, 15)));
+   		setProperty(FormatProperties.Height, String.valueOf(getIntBigEndian(header, 19)));
+		}
+		else
+		{
+         final StringBuffer fullVersion = new StringBuffer();
+         fullVersion.append(getProperty(FormatProperties.Version));
+         fullVersion.append(".").append(String.valueOf(header[5]));
+         fullVersion.append(".").append(String.valueOf(header[6]));
+         fullVersion.append(".").append(new String(header,7,1));
+   		setProperty("FullVersion", fullVersion.toString());
+   		
+   		setProperty("Unknown1", String.valueOf(getIntBigEndian(header, 8)));
+   		setProperty("Unknown2", String.valueOf(getShortIntBigEndian(header, 8)));
+
+   		setProperty(FormatProperties.ResolutionLevels, String.valueOf(getIntBigEndian(header, 22)));
+   		setProperty(FormatProperties.Width, String.valueOf(getIntBigEndian(header, 26)));
+   		setProperty(FormatProperties.Height, String.valueOf(getIntBigEndian(header, 30)));
+
+   		setProperty("PossibleResolutionLevels", String.valueOf(header[34]));
+   		setProperty(FormatProperties.BitsPerPixel, String.valueOf(getShortIntBigEndian(header, 35)));
+	   }
 
 		StringBuffer dimensions = new StringBuffer();
 		dimensions.append(getProperty(FormatProperties.Width)).append("x");
@@ -81,6 +107,11 @@ public class MrSIDProperties extends Properties implements FormatProperties
 	private static int getIntBigEndian(byte[] a, int x)
 	{
 		return (a[x] & 0xff) << 24 | (a[x + 1] & 0xff) << 16 | (a[x + 2] & 0xff) << 8 | a[x + 3] & 0xff;
+	}
+
+	private static int getShortIntBigEndian(byte[] a, int x)
+	{
+		return (a[x] & 0xff) << 8 | a[x + 1] & 0xff;
 	}
 
 	/**

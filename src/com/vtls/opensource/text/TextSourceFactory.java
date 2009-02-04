@@ -1,6 +1,7 @@
 package com.vtls.opensource.text;
 
 import java.io.InputStream;
+import java.io.IOException;
 
 /**
  * An abstraction for all of this package's text-extracting functionality.
@@ -40,7 +41,7 @@ public class TextSourceFactory
 	 * @param _mime_type The MIME type for the document.
 	 * @return A {@link TextSource} instance.
 	 */
-	public TextSource newTextSource(InputStream _stream, String _mime_type)
+	public TextSource newTextSource(InputStream _stream, String _mime_type) throws IOException
 	{
 		if(_mime_type == null)
 			return null;

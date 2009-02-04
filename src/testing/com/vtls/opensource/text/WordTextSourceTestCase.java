@@ -20,7 +20,7 @@ public class WordTextSourceTestCase extends TestCase
 		super(name);
 	}
 
-	protected void setUp() throws FileNotFoundException
+	protected void setUp() throws IOException
 	{
 		m_text_source = new WordTextSource(new FileInputStream(m_test_filename));
 	}

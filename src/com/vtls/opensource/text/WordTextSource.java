@@ -3,7 +3,8 @@ package com.vtls.opensource.text;
 import java.io.InputStream;
 import java.io.IOException;
 
-import org.textmining.text.extraction.WordExtractor;
+//import org.textmining.text.extraction.WordExtractor;
+import org.apache.poi.hwpf.extractor.WordExtractor;
 
 /**
  * Extracts text from Microsoft Word documents using the excellent Textmining
@@ -22,13 +23,13 @@ public class WordTextSource extends TextSource implements Text
 	 * Class constructor specifying a source {@link InputStream}
 	 * @param _stream an input stream of a word document
 	 */
-	public WordTextSource(InputStream _stream)
+	public WordTextSource(InputStream _stream) throws IOException
 	{
 		// Keep the stream as a member variable.
 	   super(_stream);
 
 		// Create extractor.
-		m_extractor = new WordExtractor();
+		m_extractor = new WordExtractor(m_stream);
 	}
 	
 	/**
@@ -41,7 +42,7 @@ public class WordTextSource extends TextSource implements Text
 		
 		try
 		{
-			 _return = m_extractor.extractText(m_stream);
+			 _return = m_extractor.getText();
 		}
 		catch(Exception e)
 		{

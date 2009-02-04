@@ -115,13 +115,6 @@ public interface FormatProperties
    public Enumeration propertyNames();
    
    /**
-    * Add all key-value pairs from a given {@link Map}
-    * to this FormatProperties instance.
-    * @param t a {@link Map}
-    */
-   public void putAll(Map t);
-   
-   /**
     * Remove all format properties.
     */
    public void clear();

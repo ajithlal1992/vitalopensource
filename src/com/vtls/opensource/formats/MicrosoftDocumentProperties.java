@@ -1,16 +1,15 @@
 package com.vtls.opensource.formats;
 
-import org.apache.log4j.Logger;
 import com.vtls.opensource.logging.Log4JLogger;
-
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Properties;
-
+import org.apache.log4j.Logger;
 import org.apache.poi.hpsf.DocumentSummaryInformation;
 import org.apache.poi.hpsf.PropertySet;
+import org.apache.poi.hpsf.SummaryInformation;
 import org.apache.poi.hslf.HSLFSlideShow;
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.model.DocumentProperties;
@@ -19,7 +18,6 @@ import org.apache.poi.poifs.filesystem.DocumentEntry;
 import org.apache.poi.poifs.filesystem.DocumentInputStream;
 import org.apache.poi.poifs.filesystem.Entry;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.apache.poi.hpsf.SummaryInformation;
 
 /**
  * This class is a collection of properties for Microsoft Document files.
