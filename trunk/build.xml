@@ -4,7 +4,7 @@
 	<property name="version" value="0.2" />
 	<property name="app.name" value="vtls-opensource-${version}" />
 	<property name="webapp.name" value="vtls" />
-	<property name="target.version" value="1.4" />
+	<property name="target.version" value="1.5" />
 
 	<!-- Required. -->
 	<property name="build.dir" value="build" />
@@ -296,9 +296,17 @@
          <classpath refid="project_classpath"/>
 			<classpath location="${build.instrumented.dir}"/>
          <formatter type="plain" usefile="false"/>
-         <test name="testing.com.vtls.opensource.filters.PackageTestCase"/>
+         <test name="testing.com.vtls.opensource.formats.FormatPropertiesFactoryTestCase"/>
       </junit>
       <fail if="test.failed">Unit tests failed.</fail>
 	</target>
+
+   <target name="test-case" depends="compile">
+      <java fork="yes" classname="junit.textui.TestRunner" taskname="junit" failonerror="true">
+         <arg value="${class}"/>
+         <classpath refid="project_classpath"/>
+         <jvmarg value="-Dlog4j.configuration=file://${basedir}/resources/logging/log4j_debug.xml"/>
+      </java>
+   </target>
 
 </project>

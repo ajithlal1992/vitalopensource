@@ -34,7 +34,7 @@ public class PDFProperties extends Properties implements FormatProperties
 		m_reader = new PdfReader(_stream);
 
 		// Add built-in properties.
-		putAll(m_reader.getInfo());
+		super.putAll(m_reader.getInfo());
 
 		// Number of pages.
 		setProperty(FormatProperties.Pages, String.valueOf(m_reader.getNumberOfPages()));

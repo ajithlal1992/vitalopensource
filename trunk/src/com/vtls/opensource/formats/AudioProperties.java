@@ -20,7 +20,6 @@ import javax.sound.sampled.UnsupportedAudioFileException;
  */
 public class AudioProperties extends Properties implements FormatProperties
 {
-	// Log4j instance.
 	private static final Logger m_logger = Log4JLogger.getLogger(AudioProperties.class);
 	
    /**

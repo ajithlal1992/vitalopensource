@@ -28,6 +28,16 @@ public class FormatPropertiesFactoryTestCase extends TestCase
 	{
 	}
 
+	public void testSID() throws IOException, java.io.FileNotFoundException
+	{
+	   FormatPropertiesFactory factory = FormatPropertiesFactory.getInstance();
+	   FormatProperties properties = null;
+	   
+	   properties = factory.getProperties("image/x-mrsid-image", new FileInputStream("src/testing/data/sample-mrsid2.sid"));
+		assertNotNull(properties);
+		m_logger.info(properties);
+	}
+/*
 	public void testLifeCycle() throws IOException, java.io.FileNotFoundException
 	{
 	   FormatPropertiesFactory factory = FormatPropertiesFactory.getInstance();
@@ -82,4 +92,5 @@ public class FormatPropertiesFactoryTestCase extends TestCase
 		assertNotNull(properties);
 		m_logger.info(properties);
 	}
+	*/
 }
