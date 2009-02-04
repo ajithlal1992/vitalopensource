@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import org.apache.poi.hpsf.DocumentSummaryInformation;
 import org.apache.poi.hpsf.PropertySet;
 import org.apache.poi.hpsf.SummaryInformation;
-import org.apache.poi.hslf.HSLFSlideShow;
+// import org.apache.poi.hslf.HSLFSlideShow;
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.model.DocumentProperties;
 import org.apache.poi.poifs.filesystem.DirectoryEntry;
@@ -60,20 +60,23 @@ public class MicrosoftDocumentProperties extends Properties implements FormatPro
 					if(property_set.isSummaryInformation())
 					{
 						SummaryInformation si = new SummaryInformation(property_set);
-						setProperty(FormatProperties.Title, si.getTitle());
-						setProperty(FormatProperties.Author, si.getAuthor());
-						setProperty(FormatProperties.Software, si.getApplicationName());
-						setProperty(FormatProperties.Revisions, String.valueOf(si.getRevNumber()));
+						if(si.getTitle() != null)
+						   setProperty(FormatProperties.Title, si.getTitle());
+
+						if(si.getAuthor() != null)
+						   setProperty(FormatProperties.Author, si.getAuthor());
+
+						if(si.getApplicationName() != null)
+						   setProperty(FormatProperties.Software, si.getApplicationName());
+
+						if(si.getRevNumber() != null)
+						   setProperty(FormatProperties.Revisions, String.valueOf(si.getRevNumber()));
 
 						if(si.getKeywords() != null)
-						{
 							setProperty(FormatProperties.Keywords, si.getKeywords());
-						}
 
 						if(si.getComments() != null)
-						{
 							setProperty(FormatProperties.Comments, si.getComments());
-						}
 					}
 					else if(property_set.isDocumentSummaryInformation())
 					{
